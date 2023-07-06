@@ -22,7 +22,7 @@ export_format_coordinate_X = -842
 export_format_coordinate_Y = 606
 
 # Tempo de execução do atributo
-execution_atribute_time = 5
+execution_atribute_time = 10
 
 # 10_Saturacao_de_Bases
 pyautogui.click(select_atribute_coordinate_X,
@@ -47,8 +47,6 @@ sleep(2)
 pyautogui.write('10_Saturacao_de_Bases', interval=0.1)
 pyautogui.press('enter')
 sleep(5)
-
-sleep(60)
 
 # 11_Calcio
 pyautogui.click(select_atribute_coordinate_X,
