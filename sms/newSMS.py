@@ -44,11 +44,11 @@ pyautogui.click(centerMapExportCoordinateX,
                 centerMapExportCoordinateY, button='right', duration=0.5)
 sleep(1)
 pyautogui.click(exportCoordinateX, exportCoordinateY, duration=0.5)
-sleep(0.5)
+sleep(1)
 pyautogui.press('enter')
-sleep(0.5)
+sleep(1)
 pyautogui.press('enter')
-sleep(0.5)
+sleep(1)
 pyautogui.click(pathCoordinateX, pathCoordinateY, duration=0.5)
 pyautogui.write(
     'D:/Cloud/PROGEO/Clientes/Kassio Vieira de Carvalho/2023/Fazenda Matrincha/Processado/Shapefiles/smsExport/contour', interval=0.05)
@@ -107,11 +107,11 @@ pyautogui.click(centerMapExportCoordinateX,
                 centerMapExportCoordinateY, button='right', duration=0.5)
 sleep(1)
 pyautogui.click(exportCoordinateX, exportCoordinateY, duration=0.5)
-sleep(0.5)
+sleep(1)
 pyautogui.press('enter')
-sleep(0.5)
+sleep(1)
 pyautogui.press('enter')
-sleep(0.5)
+sleep(1)
 pyautogui.click(pathCoordinateX, pathCoordinateY, duration=0.5)
 pyautogui.write(
     'D:/Cloud/PROGEO/Clientes/Kassio Vieira de Carvalho/2023/Fazenda Matrincha/Processado/Shapefiles/smsExport/contour', interval=0.05)
@@ -170,11 +170,11 @@ pyautogui.click(centerMapExportCoordinateX,
                 centerMapExportCoordinateY, button='right', duration=0.5)
 sleep(1)
 pyautogui.click(exportCoordinateX, exportCoordinateY, duration=0.5)
-sleep(0.5)
+sleep(1)
 pyautogui.press('enter')
-sleep(0.5)
+sleep(1)
 pyautogui.press('enter')
-sleep(0.5)
+sleep(1)
 pyautogui.click(pathCoordinateX, pathCoordinateY, duration=0.5)
 pyautogui.write(
     'D:/Cloud/PROGEO/Clientes/Kassio Vieira de Carvalho/2023/Fazenda Matrincha/Processado/Shapefiles/smsExport/contour', interval=0.05)
@@ -214,7 +214,7 @@ pyautogui.write('12_Magnesio_Grid', interval=0.1)
 pyautogui.press('enter')
 sleep(5)
 
-# 13_Calcio_Mais_Magnesio
+# 13_alcio_Mais_Magnesio
 # Select Atribute
 pyautogui.click(atributeSelectCoordinateX,
                 atributeSelectCoordinateY, duration=0.5)
@@ -233,11 +233,11 @@ pyautogui.click(centerMapExportCoordinateX,
                 centerMapExportCoordinateY, button='right', duration=0.5)
 sleep(1)
 pyautogui.click(exportCoordinateX, exportCoordinateY, duration=0.5)
-sleep(0.5)
+sleep(1)
 pyautogui.press('enter')
-sleep(0.5)
+sleep(1)
 pyautogui.press('enter')
-sleep(0.5)
+sleep(1)
 pyautogui.click(pathCoordinateX, pathCoordinateY, duration=0.5)
 pyautogui.write(
     'D:/Cloud/PROGEO/Clientes/Kassio Vieira de Carvalho/2023/Fazenda Matrincha/Processado/Shapefiles/smsExport/contour', interval=0.05)
@@ -296,11 +296,11 @@ pyautogui.click(centerMapExportCoordinateX,
                 centerMapExportCoordinateY, button='right', duration=0.5)
 sleep(1)
 pyautogui.click(exportCoordinateX, exportCoordinateY, duration=0.5)
-sleep(0.5)
+sleep(1)
 pyautogui.press('enter')
-sleep(0.5)
+sleep(1)
 pyautogui.press('enter')
-sleep(0.5)
+sleep(1)
 pyautogui.click(pathCoordinateX, pathCoordinateY, duration=0.5)
 pyautogui.write(
     'D:/Cloud/PROGEO/Clientes/Kassio Vieira de Carvalho/2023/Fazenda Matrincha/Processado/Shapefiles/smsExport/contour', interval=0.05)
@@ -340,69 +340,6 @@ pyautogui.write('14_Aluminio_Grid', interval=0.1)
 pyautogui.press('enter')
 sleep(5)
 
-# 11_Calcio
-# Select Atribute
-pyautogui.click(atributeSelectCoordinateX,
-                atributeSelectCoordinateY, duration=0.5)
-
-pyautogui.press('down')
-
-sleep(atributeExecutionTime)
-
-# Select map type Contour
-pyautogui.click(selectContourMapCoordinateX,
-                selectContourMapCoordinateY, duration=0.5)
-sleep(atributeExecutionTime)
-
-# Export
-pyautogui.click(centerMapExportCoordinateX,
-                centerMapExportCoordinateY, button='right', duration=0.5)
-sleep(1)
-pyautogui.click(exportCoordinateX, exportCoordinateY, duration=0.5)
-sleep(0.5)
-pyautogui.press('enter')
-sleep(0.5)
-pyautogui.press('enter')
-sleep(0.5)
-pyautogui.click(pathCoordinateX, pathCoordinateY, duration=0.5)
-pyautogui.write(
-    'D:/Cloud/PROGEO/Clientes/Kassio Vieira de Carvalho/2023/Fazenda Matrincha/Processado/Shapefiles/smsExport/contour', interval=0.05)
-pyautogui.press('enter')
-sleep(1)
-pyautogui.click(fileNameCoordinateX, fileNameCoordinateY, duration=0.5)
-pyautogui.write('11_Calcio_Contour', interval=0.1)
-pyautogui.press('enter')
-
-sleep(3)
-
-# Select map type Grid
-pyautogui.click(selectGridMapCoordinateX,
-                selectGridMapCoordinateY, duration=0.5)
-sleep(atributeExecutionTime)
-
-# Export
-pyautogui.click(centerMapExportCoordinateX,
-                centerMapExportCoordinateY, button='right', duration=0.5)
-
-sleep(1)
-
-pyautogui.click(exportCoordinateX, exportCoordinateY, duration=0.5)
-sleep(0.5)
-pyautogui.press('enter')
-sleep(0.5)
-pyautogui.press('enter')
-sleep(0.5)
-pyautogui.click(pathCoordinateX, pathCoordinateY, duration=0.5)
-pyautogui.write(
-    'D:/Cloud/PROGEO/Clientes/Kassio Vieira de Carvalho/2023/Fazenda Matrincha/Processado/Shapefiles/smsExport/grid', interval=0.05)
-pyautogui.press('enter')
-sleep(1)
-
-pyautogui.click(fileNameCoordinateX, fileNameCoordinateY, duration=0.5)
-pyautogui.write('11_Calcio_Grid', interval=0.1)
-pyautogui.press('enter')
-sleep(5)
-
 # 15_Hidrogenio_Mais_Aluminio
 # Select Atribute
 pyautogui.click(atributeSelectCoordinateX,
@@ -422,11 +359,11 @@ pyautogui.click(centerMapExportCoordinateX,
                 centerMapExportCoordinateY, button='right', duration=0.5)
 sleep(1)
 pyautogui.click(exportCoordinateX, exportCoordinateY, duration=0.5)
-sleep(0.5)
+sleep(1)
 pyautogui.press('enter')
-sleep(0.5)
+sleep(1)
 pyautogui.press('enter')
-sleep(0.5)
+sleep(1)
 pyautogui.click(pathCoordinateX, pathCoordinateY, duration=0.5)
 pyautogui.write(
     'D:/Cloud/PROGEO/Clientes/Kassio Vieira de Carvalho/2023/Fazenda Matrincha/Processado/Shapefiles/smsExport/contour', interval=0.05)
@@ -485,11 +422,11 @@ pyautogui.click(centerMapExportCoordinateX,
                 centerMapExportCoordinateY, button='right', duration=0.5)
 sleep(1)
 pyautogui.click(exportCoordinateX, exportCoordinateY, duration=0.5)
-sleep(0.5)
+sleep(1)
 pyautogui.press('enter')
-sleep(0.5)
+sleep(1)
 pyautogui.press('enter')
-sleep(0.5)
+sleep(1)
 pyautogui.click(pathCoordinateX, pathCoordinateY, duration=0.5)
 pyautogui.write(
     'D:/Cloud/PROGEO/Clientes/Kassio Vieira de Carvalho/2023/Fazenda Matrincha/Processado/Shapefiles/smsExport/contour', interval=0.05)
@@ -548,11 +485,11 @@ pyautogui.click(centerMapExportCoordinateX,
                 centerMapExportCoordinateY, button='right', duration=0.5)
 sleep(1)
 pyautogui.click(exportCoordinateX, exportCoordinateY, duration=0.5)
-sleep(0.5)
+sleep(1)
 pyautogui.press('enter')
-sleep(0.5)
+sleep(1)
 pyautogui.press('enter')
-sleep(0.5)
+sleep(1)
 pyautogui.click(pathCoordinateX, pathCoordinateY, duration=0.5)
 pyautogui.write(
     'D:/Cloud/PROGEO/Clientes/Kassio Vieira de Carvalho/2023/Fazenda Matrincha/Processado/Shapefiles/smsExport/contour', interval=0.05)
@@ -611,11 +548,11 @@ pyautogui.click(centerMapExportCoordinateX,
                 centerMapExportCoordinateY, button='right', duration=0.5)
 sleep(1)
 pyautogui.click(exportCoordinateX, exportCoordinateY, duration=0.5)
-sleep(0.5)
+sleep(1)
 pyautogui.press('enter')
-sleep(0.5)
+sleep(1)
 pyautogui.press('enter')
-sleep(0.5)
+sleep(1)
 pyautogui.click(pathCoordinateX, pathCoordinateY, duration=0.5)
 pyautogui.write(
     'D:/Cloud/PROGEO/Clientes/Kassio Vieira de Carvalho/2023/Fazenda Matrincha/Processado/Shapefiles/smsExport/contour', interval=0.05)
@@ -674,11 +611,11 @@ pyautogui.click(centerMapExportCoordinateX,
                 centerMapExportCoordinateY, button='right', duration=0.5)
 sleep(1)
 pyautogui.click(exportCoordinateX, exportCoordinateY, duration=0.5)
-sleep(0.5)
+sleep(1)
 pyautogui.press('enter')
-sleep(0.5)
+sleep(1)
 pyautogui.press('enter')
-sleep(0.5)
+sleep(1)
 pyautogui.click(pathCoordinateX, pathCoordinateY, duration=0.5)
 pyautogui.write(
     'D:/Cloud/PROGEO/Clientes/Kassio Vieira de Carvalho/2023/Fazenda Matrincha/Processado/Shapefiles/smsExport/contour', interval=0.05)
@@ -737,11 +674,11 @@ pyautogui.click(centerMapExportCoordinateX,
                 centerMapExportCoordinateY, button='right', duration=0.5)
 sleep(1)
 pyautogui.click(exportCoordinateX, exportCoordinateY, duration=0.5)
-sleep(0.5)
+sleep(1)
 pyautogui.press('enter')
-sleep(0.5)
+sleep(1)
 pyautogui.press('enter')
-sleep(0.5)
+sleep(1)
 pyautogui.click(pathCoordinateX, pathCoordinateY, duration=0.5)
 pyautogui.write(
     'D:/Cloud/PROGEO/Clientes/Kassio Vieira de Carvalho/2023/Fazenda Matrincha/Processado/Shapefiles/smsExport/contour', interval=0.05)
@@ -800,11 +737,11 @@ pyautogui.click(centerMapExportCoordinateX,
                 centerMapExportCoordinateY, button='right', duration=0.5)
 sleep(1)
 pyautogui.click(exportCoordinateX, exportCoordinateY, duration=0.5)
-sleep(0.5)
+sleep(1)
 pyautogui.press('enter')
-sleep(0.5)
+sleep(1)
 pyautogui.press('enter')
-sleep(0.5)
+sleep(1)
 pyautogui.click(pathCoordinateX, pathCoordinateY, duration=0.5)
 pyautogui.write(
     'D:/Cloud/PROGEO/Clientes/Kassio Vieira de Carvalho/2023/Fazenda Matrincha/Processado/Shapefiles/smsExport/contour', interval=0.05)
@@ -863,11 +800,11 @@ pyautogui.click(centerMapExportCoordinateX,
                 centerMapExportCoordinateY, button='right', duration=0.5)
 sleep(1)
 pyautogui.click(exportCoordinateX, exportCoordinateY, duration=0.5)
-sleep(0.5)
+sleep(1)
 pyautogui.press('enter')
-sleep(0.5)
+sleep(1)
 pyautogui.press('enter')
-sleep(0.5)
+sleep(1)
 pyautogui.click(pathCoordinateX, pathCoordinateY, duration=0.5)
 pyautogui.write(
     'D:/Cloud/PROGEO/Clientes/Kassio Vieira de Carvalho/2023/Fazenda Matrincha/Processado/Shapefiles/smsExport/contour', interval=0.05)
@@ -926,11 +863,11 @@ pyautogui.click(centerMapExportCoordinateX,
                 centerMapExportCoordinateY, button='right', duration=0.5)
 sleep(1)
 pyautogui.click(exportCoordinateX, exportCoordinateY, duration=0.5)
-sleep(0.5)
+sleep(1)
 pyautogui.press('enter')
-sleep(0.5)
+sleep(1)
 pyautogui.press('enter')
-sleep(0.5)
+sleep(1)
 pyautogui.click(pathCoordinateX, pathCoordinateY, duration=0.5)
 pyautogui.write(
     'D:/Cloud/PROGEO/Clientes/Kassio Vieira de Carvalho/2023/Fazenda Matrincha/Processado/Shapefiles/smsExport/contour', interval=0.05)
@@ -989,11 +926,11 @@ pyautogui.click(centerMapExportCoordinateX,
                 centerMapExportCoordinateY, button='right', duration=0.5)
 sleep(1)
 pyautogui.click(exportCoordinateX, exportCoordinateY, duration=0.5)
-sleep(0.5)
+sleep(1)
 pyautogui.press('enter')
-sleep(0.5)
+sleep(1)
 pyautogui.press('enter')
-sleep(0.5)
+sleep(1)
 pyautogui.click(pathCoordinateX, pathCoordinateY, duration=0.5)
 pyautogui.write(
     'D:/Cloud/PROGEO/Clientes/Kassio Vieira de Carvalho/2023/Fazenda Matrincha/Processado/Shapefiles/smsExport/contour', interval=0.05)
@@ -1052,11 +989,11 @@ pyautogui.click(centerMapExportCoordinateX,
                 centerMapExportCoordinateY, button='right', duration=0.5)
 sleep(1)
 pyautogui.click(exportCoordinateX, exportCoordinateY, duration=0.5)
-sleep(0.5)
+sleep(1)
 pyautogui.press('enter')
-sleep(0.5)
+sleep(1)
 pyautogui.press('enter')
-sleep(0.5)
+sleep(1)
 pyautogui.click(pathCoordinateX, pathCoordinateY, duration=0.5)
 pyautogui.write(
     'D:/Cloud/PROGEO/Clientes/Kassio Vieira de Carvalho/2023/Fazenda Matrincha/Processado/Shapefiles/smsExport/contour', interval=0.05)
@@ -1115,11 +1052,11 @@ pyautogui.click(centerMapExportCoordinateX,
                 centerMapExportCoordinateY, button='right', duration=0.5)
 sleep(1)
 pyautogui.click(exportCoordinateX, exportCoordinateY, duration=0.5)
-sleep(0.5)
+sleep(1)
 pyautogui.press('enter')
-sleep(0.5)
+sleep(1)
 pyautogui.press('enter')
-sleep(0.5)
+sleep(1)
 pyautogui.click(pathCoordinateX, pathCoordinateY, duration=0.5)
 pyautogui.write(
     'D:/Cloud/PROGEO/Clientes/Kassio Vieira de Carvalho/2023/Fazenda Matrincha/Processado/Shapefiles/smsExport/contour', interval=0.05)
@@ -1178,11 +1115,11 @@ pyautogui.click(centerMapExportCoordinateX,
                 centerMapExportCoordinateY, button='right', duration=0.5)
 sleep(1)
 pyautogui.click(exportCoordinateX, exportCoordinateY, duration=0.5)
-sleep(0.5)
+sleep(1)
 pyautogui.press('enter')
-sleep(0.5)
+sleep(1)
 pyautogui.press('enter')
-sleep(0.5)
+sleep(1)
 pyautogui.click(pathCoordinateX, pathCoordinateY, duration=0.5)
 pyautogui.write(
     'D:/Cloud/PROGEO/Clientes/Kassio Vieira de Carvalho/2023/Fazenda Matrincha/Processado/Shapefiles/smsExport/contour', interval=0.05)
@@ -1241,11 +1178,11 @@ pyautogui.click(centerMapExportCoordinateX,
                 centerMapExportCoordinateY, button='right', duration=0.5)
 sleep(1)
 pyautogui.click(exportCoordinateX, exportCoordinateY, duration=0.5)
-sleep(0.5)
+sleep(1)
 pyautogui.press('enter')
-sleep(0.5)
+sleep(1)
 pyautogui.press('enter')
-sleep(0.5)
+sleep(1)
 pyautogui.click(pathCoordinateX, pathCoordinateY, duration=0.5)
 pyautogui.write(
     'D:/Cloud/PROGEO/Clientes/Kassio Vieira de Carvalho/2023/Fazenda Matrincha/Processado/Shapefiles/smsExport/contour', interval=0.05)
@@ -1304,11 +1241,11 @@ pyautogui.click(centerMapExportCoordinateX,
                 centerMapExportCoordinateY, button='right', duration=0.5)
 sleep(1)
 pyautogui.click(exportCoordinateX, exportCoordinateY, duration=0.5)
-sleep(0.5)
+sleep(1)
 pyautogui.press('enter')
-sleep(0.5)
+sleep(1)
 pyautogui.press('enter')
-sleep(0.5)
+sleep(1)
 pyautogui.click(pathCoordinateX, pathCoordinateY, duration=0.5)
 pyautogui.write(
     'D:/Cloud/PROGEO/Clientes/Kassio Vieira de Carvalho/2023/Fazenda Matrincha/Processado/Shapefiles/smsExport/contour', interval=0.05)
@@ -1367,11 +1304,11 @@ pyautogui.click(centerMapExportCoordinateX,
                 centerMapExportCoordinateY, button='right', duration=0.5)
 sleep(1)
 pyautogui.click(exportCoordinateX, exportCoordinateY, duration=0.5)
-sleep(0.5)
+sleep(1)
 pyautogui.press('enter')
-sleep(0.5)
+sleep(1)
 pyautogui.press('enter')
-sleep(0.5)
+sleep(1)
 pyautogui.click(pathCoordinateX, pathCoordinateY, duration=0.5)
 pyautogui.write(
     'D:/Cloud/PROGEO/Clientes/Kassio Vieira de Carvalho/2023/Fazenda Matrincha/Processado/Shapefiles/smsExport/contour', interval=0.05)
@@ -1430,11 +1367,11 @@ pyautogui.click(centerMapExportCoordinateX,
                 centerMapExportCoordinateY, button='right', duration=0.5)
 sleep(1)
 pyautogui.click(exportCoordinateX, exportCoordinateY, duration=0.5)
-sleep(0.5)
+sleep(1)
 pyautogui.press('enter')
-sleep(0.5)
+sleep(1)
 pyautogui.press('enter')
-sleep(0.5)
+sleep(1)
 pyautogui.click(pathCoordinateX, pathCoordinateY, duration=0.5)
 pyautogui.write(
     'D:/Cloud/PROGEO/Clientes/Kassio Vieira de Carvalho/2023/Fazenda Matrincha/Processado/Shapefiles/smsExport/contour', interval=0.05)
@@ -1474,7 +1411,7 @@ pyautogui.write('30_Ferro_Grid', interval=0.1)
 pyautogui.press('enter')
 sleep(5)
 
-# 31_Mangenes
+# 31_Manganes
 # Select Atribute
 pyautogui.click(atributeSelectCoordinateX,
                 atributeSelectCoordinateY, duration=0.5)
@@ -1493,18 +1430,18 @@ pyautogui.click(centerMapExportCoordinateX,
                 centerMapExportCoordinateY, button='right', duration=0.5)
 sleep(1)
 pyautogui.click(exportCoordinateX, exportCoordinateY, duration=0.5)
-sleep(0.5)
+sleep(1)
 pyautogui.press('enter')
-sleep(0.5)
+sleep(1)
 pyautogui.press('enter')
-sleep(0.5)
+sleep(1)
 pyautogui.click(pathCoordinateX, pathCoordinateY, duration=0.5)
 pyautogui.write(
     'D:/Cloud/PROGEO/Clientes/Kassio Vieira de Carvalho/2023/Fazenda Matrincha/Processado/Shapefiles/smsExport/contour', interval=0.05)
 pyautogui.press('enter')
 sleep(1)
 pyautogui.click(fileNameCoordinateX, fileNameCoordinateY, duration=0.5)
-pyautogui.write('31_Mangenes_Contour', interval=0.1)
+pyautogui.write('31_Manganes_Contour', interval=0.1)
 pyautogui.press('enter')
 
 sleep(3)
@@ -1533,7 +1470,7 @@ pyautogui.press('enter')
 sleep(1)
 
 pyautogui.click(fileNameCoordinateX, fileNameCoordinateY, duration=0.5)
-pyautogui.write('31_Mangenes_Grid', interval=0.1)
+pyautogui.write('31_Manganes_Grid', interval=0.1)
 pyautogui.press('enter')
 sleep(5)
 
@@ -1556,11 +1493,11 @@ pyautogui.click(centerMapExportCoordinateX,
                 centerMapExportCoordinateY, button='right', duration=0.5)
 sleep(1)
 pyautogui.click(exportCoordinateX, exportCoordinateY, duration=0.5)
-sleep(0.5)
+sleep(1)
 pyautogui.press('enter')
-sleep(0.5)
+sleep(1)
 pyautogui.press('enter')
-sleep(0.5)
+sleep(1)
 pyautogui.click(pathCoordinateX, pathCoordinateY, duration=0.5)
 pyautogui.write(
     'D:/Cloud/PROGEO/Clientes/Kassio Vieira de Carvalho/2023/Fazenda Matrincha/Processado/Shapefiles/smsExport/contour', interval=0.05)
@@ -1619,11 +1556,11 @@ pyautogui.click(centerMapExportCoordinateX,
                 centerMapExportCoordinateY, button='right', duration=0.5)
 sleep(1)
 pyautogui.click(exportCoordinateX, exportCoordinateY, duration=0.5)
-sleep(0.5)
+sleep(1)
 pyautogui.press('enter')
-sleep(0.5)
+sleep(1)
 pyautogui.press('enter')
-sleep(0.5)
+sleep(1)
 pyautogui.click(pathCoordinateX, pathCoordinateY, duration=0.5)
 pyautogui.write(
     'D:/Cloud/PROGEO/Clientes/Kassio Vieira de Carvalho/2023/Fazenda Matrincha/Processado/Shapefiles/smsExport/contour', interval=0.05)
@@ -1660,5 +1597,383 @@ sleep(1)
 
 pyautogui.click(fileNameCoordinateX, fileNameCoordinateY, duration=0.5)
 pyautogui.write('33_Sodio_Grid', interval=0.1)
+pyautogui.press('enter')
+sleep(5)
+
+# 4_Areia
+# Select Atribute
+pyautogui.click(atributeSelectCoordinateX,
+                atributeSelectCoordinateY, duration=0.5)
+
+pyautogui.press('down')
+
+sleep(atributeExecutionTime)
+
+# Select map type Contour
+pyautogui.click(selectContourMapCoordinateX,
+                selectContourMapCoordinateY, duration=0.5)
+sleep(atributeExecutionTime)
+
+# Export
+pyautogui.click(centerMapExportCoordinateX,
+                centerMapExportCoordinateY, button='right', duration=0.5)
+sleep(1)
+pyautogui.click(exportCoordinateX, exportCoordinateY, duration=0.5)
+sleep(1)
+pyautogui.press('enter')
+sleep(1)
+pyautogui.press('enter')
+sleep(1)
+pyautogui.click(pathCoordinateX, pathCoordinateY, duration=0.5)
+pyautogui.write(
+    'D:/Cloud/PROGEO/Clientes/Kassio Vieira de Carvalho/2023/Fazenda Matrincha/Processado/Shapefiles/smsExport/contour', interval=0.05)
+pyautogui.press('enter')
+sleep(1)
+pyautogui.click(fileNameCoordinateX, fileNameCoordinateY, duration=0.5)
+pyautogui.write('4_Areia_Contour', interval=0.1)
+pyautogui.press('enter')
+
+sleep(3)
+
+# Select map type Grid
+pyautogui.click(selectGridMapCoordinateX,
+                selectGridMapCoordinateY, duration=0.5)
+sleep(atributeExecutionTime)
+
+# Export
+pyautogui.click(centerMapExportCoordinateX,
+                centerMapExportCoordinateY, button='right', duration=0.5)
+
+sleep(1)
+
+pyautogui.click(exportCoordinateX, exportCoordinateY, duration=0.5)
+sleep(0.5)
+pyautogui.press('enter')
+sleep(0.5)
+pyautogui.press('enter')
+sleep(0.5)
+pyautogui.click(pathCoordinateX, pathCoordinateY, duration=0.5)
+pyautogui.write(
+    'D:/Cloud/PROGEO/Clientes/Kassio Vieira de Carvalho/2023/Fazenda Matrincha/Processado/Shapefiles/smsExport/grid', interval=0.05)
+pyautogui.press('enter')
+sleep(1)
+
+pyautogui.click(fileNameCoordinateX, fileNameCoordinateY, duration=0.5)
+pyautogui.write('4_Areia_Grid', interval=0.1)
+pyautogui.press('enter')
+sleep(5)
+
+# 5_Silte
+# Select Atribute
+pyautogui.click(atributeSelectCoordinateX,
+                atributeSelectCoordinateY, duration=0.5)
+
+pyautogui.press('down')
+
+sleep(atributeExecutionTime)
+
+# Select map type Contour
+pyautogui.click(selectContourMapCoordinateX,
+                selectContourMapCoordinateY, duration=0.5)
+sleep(atributeExecutionTime)
+
+# Export
+pyautogui.click(centerMapExportCoordinateX,
+                centerMapExportCoordinateY, button='right', duration=0.5)
+sleep(1)
+pyautogui.click(exportCoordinateX, exportCoordinateY, duration=0.5)
+sleep(1)
+pyautogui.press('enter')
+sleep(1)
+pyautogui.press('enter')
+sleep(1)
+pyautogui.click(pathCoordinateX, pathCoordinateY, duration=0.5)
+pyautogui.write(
+    'D:/Cloud/PROGEO/Clientes/Kassio Vieira de Carvalho/2023/Fazenda Matrincha/Processado/Shapefiles/smsExport/contour', interval=0.05)
+pyautogui.press('enter')
+sleep(1)
+pyautogui.click(fileNameCoordinateX, fileNameCoordinateY, duration=0.5)
+pyautogui.write('5_Silte_Contour', interval=0.1)
+pyautogui.press('enter')
+
+sleep(3)
+
+# Select map type Grid
+pyautogui.click(selectGridMapCoordinateX,
+                selectGridMapCoordinateY, duration=0.5)
+sleep(atributeExecutionTime)
+
+# Export
+pyautogui.click(centerMapExportCoordinateX,
+                centerMapExportCoordinateY, button='right', duration=0.5)
+
+sleep(1)
+
+pyautogui.click(exportCoordinateX, exportCoordinateY, duration=0.5)
+sleep(0.5)
+pyautogui.press('enter')
+sleep(0.5)
+pyautogui.press('enter')
+sleep(0.5)
+pyautogui.click(pathCoordinateX, pathCoordinateY, duration=0.5)
+pyautogui.write(
+    'D:/Cloud/PROGEO/Clientes/Kassio Vieira de Carvalho/2023/Fazenda Matrincha/Processado/Shapefiles/smsExport/grid', interval=0.05)
+pyautogui.press('enter')
+sleep(1)
+
+pyautogui.click(fileNameCoordinateX, fileNameCoordinateY, duration=0.5)
+pyautogui.write('5_Silte_Grid', interval=0.1)
+pyautogui.press('enter')
+sleep(5)
+
+# 6_Materia_Organica
+# Select Atribute
+pyautogui.click(atributeSelectCoordinateX,
+                atributeSelectCoordinateY, duration=0.5)
+
+pyautogui.press('down')
+
+sleep(atributeExecutionTime)
+
+# Select map type Contour
+pyautogui.click(selectContourMapCoordinateX,
+                selectContourMapCoordinateY, duration=0.5)
+sleep(atributeExecutionTime)
+
+# Export
+pyautogui.click(centerMapExportCoordinateX,
+                centerMapExportCoordinateY, button='right', duration=0.5)
+sleep(1)
+pyautogui.click(exportCoordinateX, exportCoordinateY, duration=0.5)
+sleep(1)
+pyautogui.press('enter')
+sleep(1)
+pyautogui.press('enter')
+sleep(1)
+pyautogui.click(pathCoordinateX, pathCoordinateY, duration=0.5)
+pyautogui.write(
+    'D:/Cloud/PROGEO/Clientes/Kassio Vieira de Carvalho/2023/Fazenda Matrincha/Processado/Shapefiles/smsExport/contour', interval=0.05)
+pyautogui.press('enter')
+sleep(1)
+pyautogui.click(fileNameCoordinateX, fileNameCoordinateY, duration=0.5)
+pyautogui.write('6_Materia_Organica_Contour', interval=0.1)
+pyautogui.press('enter')
+
+sleep(3)
+
+# Select map type Grid
+pyautogui.click(selectGridMapCoordinateX,
+                selectGridMapCoordinateY, duration=0.5)
+sleep(atributeExecutionTime)
+
+# Export
+pyautogui.click(centerMapExportCoordinateX,
+                centerMapExportCoordinateY, button='right', duration=0.5)
+
+sleep(1)
+
+pyautogui.click(exportCoordinateX, exportCoordinateY, duration=0.5)
+sleep(0.5)
+pyautogui.press('enter')
+sleep(0.5)
+pyautogui.press('enter')
+sleep(0.5)
+pyautogui.click(pathCoordinateX, pathCoordinateY, duration=0.5)
+pyautogui.write(
+    'D:/Cloud/PROGEO/Clientes/Kassio Vieira de Carvalho/2023/Fazenda Matrincha/Processado/Shapefiles/smsExport/grid', interval=0.05)
+pyautogui.press('enter')
+sleep(1)
+
+pyautogui.click(fileNameCoordinateX, fileNameCoordinateY, duration=0.5)
+pyautogui.write('6_Materia_Organica_Grid', interval=0.1)
+pyautogui.press('enter')
+sleep(5)
+
+# 7_Carbono_Organico
+# Select Atribute
+pyautogui.click(atributeSelectCoordinateX,
+                atributeSelectCoordinateY, duration=0.5)
+
+pyautogui.press('down')
+
+sleep(atributeExecutionTime)
+
+# Select map type Contour
+pyautogui.click(selectContourMapCoordinateX,
+                selectContourMapCoordinateY, duration=0.5)
+sleep(atributeExecutionTime)
+
+# Export
+pyautogui.click(centerMapExportCoordinateX,
+                centerMapExportCoordinateY, button='right', duration=0.5)
+sleep(1)
+pyautogui.click(exportCoordinateX, exportCoordinateY, duration=0.5)
+sleep(1)
+pyautogui.press('enter')
+sleep(1)
+pyautogui.press('enter')
+sleep(1)
+pyautogui.click(pathCoordinateX, pathCoordinateY, duration=0.5)
+pyautogui.write(
+    'D:/Cloud/PROGEO/Clientes/Kassio Vieira de Carvalho/2023/Fazenda Matrincha/Processado/Shapefiles/smsExport/contour', interval=0.05)
+pyautogui.press('enter')
+sleep(1)
+pyautogui.click(fileNameCoordinateX, fileNameCoordinateY, duration=0.5)
+pyautogui.write('7_Carbono_Organico_Contour', interval=0.1)
+pyautogui.press('enter')
+
+sleep(3)
+
+# Select map type Grid
+pyautogui.click(selectGridMapCoordinateX,
+                selectGridMapCoordinateY, duration=0.5)
+sleep(atributeExecutionTime)
+
+# Export
+pyautogui.click(centerMapExportCoordinateX,
+                centerMapExportCoordinateY, button='right', duration=0.5)
+
+sleep(1)
+
+pyautogui.click(exportCoordinateX, exportCoordinateY, duration=0.5)
+sleep(0.5)
+pyautogui.press('enter')
+sleep(0.5)
+pyautogui.press('enter')
+sleep(0.5)
+pyautogui.click(pathCoordinateX, pathCoordinateY, duration=0.5)
+pyautogui.write(
+    'D:/Cloud/PROGEO/Clientes/Kassio Vieira de Carvalho/2023/Fazenda Matrincha/Processado/Shapefiles/smsExport/grid', interval=0.05)
+pyautogui.press('enter')
+sleep(1)
+
+pyautogui.click(fileNameCoordinateX, fileNameCoordinateY, duration=0.5)
+pyautogui.write('7_Carbono_Organico_Grid', interval=0.1)
+pyautogui.press('enter')
+sleep(5)
+
+# 8_CTC_Total
+# Select Atribute
+pyautogui.click(atributeSelectCoordinateX,
+                atributeSelectCoordinateY, duration=0.5)
+
+pyautogui.press('down')
+
+sleep(atributeExecutionTime)
+
+# Select map type Contour
+pyautogui.click(selectContourMapCoordinateX,
+                selectContourMapCoordinateY, duration=0.5)
+sleep(atributeExecutionTime)
+
+# Export
+pyautogui.click(centerMapExportCoordinateX,
+                centerMapExportCoordinateY, button='right', duration=0.5)
+sleep(1)
+pyautogui.click(exportCoordinateX, exportCoordinateY, duration=0.5)
+sleep(1)
+pyautogui.press('enter')
+sleep(1)
+pyautogui.press('enter')
+sleep(1)
+pyautogui.click(pathCoordinateX, pathCoordinateY, duration=0.5)
+pyautogui.write(
+    'D:/Cloud/PROGEO/Clientes/Kassio Vieira de Carvalho/2023/Fazenda Matrincha/Processado/Shapefiles/smsExport/contour', interval=0.05)
+pyautogui.press('enter')
+sleep(1)
+pyautogui.click(fileNameCoordinateX, fileNameCoordinateY, duration=0.5)
+pyautogui.write('8_CTC_Total_Contour', interval=0.1)
+pyautogui.press('enter')
+
+sleep(3)
+
+# Select map type Grid
+pyautogui.click(selectGridMapCoordinateX,
+                selectGridMapCoordinateY, duration=0.5)
+sleep(atributeExecutionTime)
+
+# Export
+pyautogui.click(centerMapExportCoordinateX,
+                centerMapExportCoordinateY, button='right', duration=0.5)
+
+sleep(1)
+
+pyautogui.click(exportCoordinateX, exportCoordinateY, duration=0.5)
+sleep(0.5)
+pyautogui.press('enter')
+sleep(0.5)
+pyautogui.press('enter')
+sleep(0.5)
+pyautogui.click(pathCoordinateX, pathCoordinateY, duration=0.5)
+pyautogui.write(
+    'D:/Cloud/PROGEO/Clientes/Kassio Vieira de Carvalho/2023/Fazenda Matrincha/Processado/Shapefiles/smsExport/grid', interval=0.05)
+pyautogui.press('enter')
+sleep(1)
+
+pyautogui.click(fileNameCoordinateX, fileNameCoordinateY, duration=0.5)
+pyautogui.write('8_CTC_Total_Grid', interval=0.1)
+pyautogui.press('enter')
+sleep(5)
+
+# 9_pH_Cloreto_de_Calcio
+# Select Atribute
+pyautogui.click(atributeSelectCoordinateX,
+                atributeSelectCoordinateY, duration=0.5)
+
+pyautogui.press('down')
+
+sleep(atributeExecutionTime)
+
+# Select map type Contour
+pyautogui.click(selectContourMapCoordinateX,
+                selectContourMapCoordinateY, duration=0.5)
+sleep(atributeExecutionTime)
+
+# Export
+pyautogui.click(centerMapExportCoordinateX,
+                centerMapExportCoordinateY, button='right', duration=0.5)
+sleep(1)
+pyautogui.click(exportCoordinateX, exportCoordinateY, duration=0.5)
+sleep(1)
+pyautogui.press('enter')
+sleep(1)
+pyautogui.press('enter')
+sleep(1)
+pyautogui.click(pathCoordinateX, pathCoordinateY, duration=0.5)
+pyautogui.write(
+    'D:/Cloud/PROGEO/Clientes/Kassio Vieira de Carvalho/2023/Fazenda Matrincha/Processado/Shapefiles/smsExport/contour', interval=0.05)
+pyautogui.press('enter')
+sleep(1)
+pyautogui.click(fileNameCoordinateX, fileNameCoordinateY, duration=0.5)
+pyautogui.write('9_pH_Cloreto_de_Calcio_Contour', interval=0.1)
+pyautogui.press('enter')
+
+sleep(3)
+
+# Select map type Grid
+pyautogui.click(selectGridMapCoordinateX,
+                selectGridMapCoordinateY, duration=0.5)
+sleep(atributeExecutionTime)
+
+# Export
+pyautogui.click(centerMapExportCoordinateX,
+                centerMapExportCoordinateY, button='right', duration=0.5)
+
+sleep(1)
+
+pyautogui.click(exportCoordinateX, exportCoordinateY, duration=0.5)
+sleep(0.5)
+pyautogui.press('enter')
+sleep(0.5)
+pyautogui.press('enter')
+sleep(0.5)
+pyautogui.click(pathCoordinateX, pathCoordinateY, duration=0.5)
+pyautogui.write(
+    'D:/Cloud/PROGEO/Clientes/Kassio Vieira de Carvalho/2023/Fazenda Matrincha/Processado/Shapefiles/smsExport/grid', interval=0.05)
+pyautogui.press('enter')
+sleep(1)
+
+pyautogui.click(fileNameCoordinateX, fileNameCoordinateY, duration=0.5)
+pyautogui.write('9_pH_Cloreto_de_Calcio_Grid', interval=0.1)
 pyautogui.press('enter')
 sleep(5)
