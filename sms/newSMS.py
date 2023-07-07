@@ -55,7 +55,7 @@ pyautogui.write(
 pyautogui.press('enter')
 sleep(1)
 pyautogui.click(fileNameCoordinateX, fileNameCoordinateY, duration=0.5)
-pyautogui.write('10_Saturacao_de_Bases_Contour', interval=0.1)
+pyautogui.write('10_Saturacao_de_Bases', interval=0.1)
 pyautogui.press('enter')
 
 sleep(3)
@@ -84,7 +84,7 @@ pyautogui.press('enter')
 sleep(1)
 
 pyautogui.click(fileNameCoordinateX, fileNameCoordinateY, duration=0.5)
-pyautogui.write('10_Saturacao_de_Bases_Grid', interval=0.1)
+pyautogui.write('10_Saturacao_de_Bases', interval=0.1)
 pyautogui.press('enter')
 sleep(5)
 
@@ -118,7 +118,7 @@ pyautogui.write(
 pyautogui.press('enter')
 sleep(1)
 pyautogui.click(fileNameCoordinateX, fileNameCoordinateY, duration=0.5)
-pyautogui.write('11_Calcio_Contour', interval=0.1)
+pyautogui.write('11_Calcio', interval=0.1)
 pyautogui.press('enter')
 
 sleep(3)
@@ -147,7 +147,7 @@ pyautogui.press('enter')
 sleep(1)
 
 pyautogui.click(fileNameCoordinateX, fileNameCoordinateY, duration=0.5)
-pyautogui.write('11_Calcio_Grid', interval=0.1)
+pyautogui.write('11_Calcio', interval=0.1)
 pyautogui.press('enter')
 sleep(5)
 
@@ -181,7 +181,7 @@ pyautogui.write(
 pyautogui.press('enter')
 sleep(1)
 pyautogui.click(fileNameCoordinateX, fileNameCoordinateY, duration=0.5)
-pyautogui.write('12_Magnesio_Contour', interval=0.1)
+pyautogui.write('12_Magnesio', interval=0.1)
 pyautogui.press('enter')
 
 sleep(3)
@@ -210,7 +210,7 @@ pyautogui.press('enter')
 sleep(1)
 
 pyautogui.click(fileNameCoordinateX, fileNameCoordinateY, duration=0.5)
-pyautogui.write('12_Magnesio_Grid', interval=0.1)
+pyautogui.write('12_Magnesio', interval=0.1)
 pyautogui.press('enter')
 sleep(5)
 
@@ -244,7 +244,7 @@ pyautogui.write(
 pyautogui.press('enter')
 sleep(1)
 pyautogui.click(fileNameCoordinateX, fileNameCoordinateY, duration=0.5)
-pyautogui.write('13_Calcio_Mais_Magnesio_Contour', interval=0.1)
+pyautogui.write('13_Calcio_Mais_Magnesio', interval=0.1)
 pyautogui.press('enter')
 
 sleep(3)
@@ -273,7 +273,7 @@ pyautogui.press('enter')
 sleep(1)
 
 pyautogui.click(fileNameCoordinateX, fileNameCoordinateY, duration=0.5)
-pyautogui.write('13_Calcio_Mais_Magnesio_Grid', interval=0.1)
+pyautogui.write('13_Calcio_Mais_Magnesio', interval=0.1)
 pyautogui.press('enter')
 sleep(5)
 
@@ -307,7 +307,7 @@ pyautogui.write(
 pyautogui.press('enter')
 sleep(1)
 pyautogui.click(fileNameCoordinateX, fileNameCoordinateY, duration=0.5)
-pyautogui.write('14_Aluminio_Contour', interval=0.1)
+pyautogui.write('14_Aluminio', interval=0.1)
 pyautogui.press('enter')
 
 sleep(3)
@@ -336,7 +336,7 @@ pyautogui.press('enter')
 sleep(1)
 
 pyautogui.click(fileNameCoordinateX, fileNameCoordinateY, duration=0.5)
-pyautogui.write('14_Aluminio_Grid', interval=0.1)
+pyautogui.write('14_Aluminio', interval=0.1)
 pyautogui.press('enter')
 sleep(5)
 
@@ -370,7 +370,7 @@ pyautogui.write(
 pyautogui.press('enter')
 sleep(1)
 pyautogui.click(fileNameCoordinateX, fileNameCoordinateY, duration=0.5)
-pyautogui.write('15_Hidrogenio_Mais_Aluminio_Contour', interval=0.1)
+pyautogui.write('15_Hidrogenio_Mais_Aluminio', interval=0.1)
 pyautogui.press('enter')
 
 sleep(3)
@@ -399,7 +399,7 @@ pyautogui.press('enter')
 sleep(1)
 
 pyautogui.click(fileNameCoordinateX, fileNameCoordinateY, duration=0.5)
-pyautogui.write('15_Hidrogenio_Mais_Aluminio_Grid', interval=0.1)
+pyautogui.write('15_Hidrogenio_Mais_Aluminio', interval=0.1)
 pyautogui.press('enter')
 sleep(5)
 
@@ -433,7 +433,7 @@ pyautogui.write(
 pyautogui.press('enter')
 sleep(1)
 pyautogui.click(fileNameCoordinateX, fileNameCoordinateY, duration=0.5)
-pyautogui.write('16_Saturacao_por_Aluminio_Contour', interval=0.1)
+pyautogui.write('16_Saturacao_por_Aluminio', interval=0.1)
 pyautogui.press('enter')
 
 sleep(3)
@@ -462,7 +462,7 @@ pyautogui.press('enter')
 sleep(1)
 
 pyautogui.click(fileNameCoordinateX, fileNameCoordinateY, duration=0.5)
-pyautogui.write('16_Saturacao_por_Aluminio_Grid', interval=0.1)
+pyautogui.write('16_Saturacao_por_Aluminio', interval=0.1)
 pyautogui.press('enter')
 sleep(5)
 
@@ -496,7 +496,7 @@ pyautogui.write(
 pyautogui.press('enter')
 sleep(1)
 pyautogui.click(fileNameCoordinateX, fileNameCoordinateY, duration=0.5)
-pyautogui.write('17_Potassio_ppm_Contour', interval=0.1)
+pyautogui.write('17_Potassio_ppm', interval=0.1)
 pyautogui.press('enter')
 
 sleep(3)
@@ -525,7 +525,7 @@ pyautogui.press('enter')
 sleep(1)
 
 pyautogui.click(fileNameCoordinateX, fileNameCoordinateY, duration=0.5)
-pyautogui.write('17_Potassio_ppm_Grid', interval=0.1)
+pyautogui.write('17_Potassio_ppm', interval=0.1)
 pyautogui.press('enter')
 sleep(5)
 
@@ -559,7 +559,7 @@ pyautogui.write(
 pyautogui.press('enter')
 sleep(1)
 pyautogui.click(fileNameCoordinateX, fileNameCoordinateY, duration=0.5)
-pyautogui.write('18_Fosforo_Mehlich_Contour', interval=0.1)
+pyautogui.write('18_Fosforo_Mehlich', interval=0.1)
 pyautogui.press('enter')
 
 sleep(3)
@@ -588,7 +588,7 @@ pyautogui.press('enter')
 sleep(1)
 
 pyautogui.click(fileNameCoordinateX, fileNameCoordinateY, duration=0.5)
-pyautogui.write('18_Fosforo_Mehlich_Grid', interval=0.1)
+pyautogui.write('18_Fosforo_Mehlich', interval=0.1)
 pyautogui.press('enter')
 sleep(5)
 
@@ -622,7 +622,7 @@ pyautogui.write(
 pyautogui.press('enter')
 sleep(1)
 pyautogui.click(fileNameCoordinateX, fileNameCoordinateY, duration=0.5)
-pyautogui.write('19_Potassio_Contour', interval=0.1)
+pyautogui.write('19_Potassio', interval=0.1)
 pyautogui.press('enter')
 
 sleep(3)
@@ -651,7 +651,7 @@ pyautogui.press('enter')
 sleep(1)
 
 pyautogui.click(fileNameCoordinateX, fileNameCoordinateY, duration=0.5)
-pyautogui.write('19_Potassio_Grid', interval=0.1)
+pyautogui.write('19_Potassio', interval=0.1)
 pyautogui.press('enter')
 sleep(5)
 
@@ -685,7 +685,7 @@ pyautogui.write(
 pyautogui.press('enter')
 sleep(1)
 pyautogui.click(fileNameCoordinateX, fileNameCoordinateY, duration=0.5)
-pyautogui.write('20_Enxofre_Contour', interval=0.1)
+pyautogui.write('20_Enxofre', interval=0.1)
 pyautogui.press('enter')
 
 sleep(3)
@@ -714,7 +714,7 @@ pyautogui.press('enter')
 sleep(1)
 
 pyautogui.click(fileNameCoordinateX, fileNameCoordinateY, duration=0.5)
-pyautogui.write('20_Enxofre_Grid', interval=0.1)
+pyautogui.write('20_Enxofre', interval=0.1)
 pyautogui.press('enter')
 sleep(5)
 
@@ -748,7 +748,7 @@ pyautogui.write(
 pyautogui.press('enter')
 sleep(1)
 pyautogui.click(fileNameCoordinateX, fileNameCoordinateY, duration=0.5)
-pyautogui.write('21_Boro_Contour', interval=0.1)
+pyautogui.write('21_Boro', interval=0.1)
 pyautogui.press('enter')
 
 sleep(3)
@@ -777,7 +777,7 @@ pyautogui.press('enter')
 sleep(1)
 
 pyautogui.click(fileNameCoordinateX, fileNameCoordinateY, duration=0.5)
-pyautogui.write('21_Boro_Grid', interval=0.1)
+pyautogui.write('21_Boro', interval=0.1)
 pyautogui.press('enter')
 sleep(5)
 
@@ -811,7 +811,7 @@ pyautogui.write(
 pyautogui.press('enter')
 sleep(1)
 pyautogui.click(fileNameCoordinateX, fileNameCoordinateY, duration=0.5)
-pyautogui.write('22_Calcio_CTC_Contour', interval=0.1)
+pyautogui.write('22_Calcio_CTC', interval=0.1)
 pyautogui.press('enter')
 
 sleep(3)
@@ -840,7 +840,7 @@ pyautogui.press('enter')
 sleep(1)
 
 pyautogui.click(fileNameCoordinateX, fileNameCoordinateY, duration=0.5)
-pyautogui.write('22_Calcio_CTC_Grid', interval=0.1)
+pyautogui.write('22_Calcio_CTC', interval=0.1)
 pyautogui.press('enter')
 sleep(5)
 
@@ -874,7 +874,7 @@ pyautogui.write(
 pyautogui.press('enter')
 sleep(1)
 pyautogui.click(fileNameCoordinateX, fileNameCoordinateY, duration=0.5)
-pyautogui.write('23_Magnesio_CTC_Contour', interval=0.1)
+pyautogui.write('23_Magnesio_CTC', interval=0.1)
 pyautogui.press('enter')
 
 sleep(3)
@@ -903,7 +903,7 @@ pyautogui.press('enter')
 sleep(1)
 
 pyautogui.click(fileNameCoordinateX, fileNameCoordinateY, duration=0.5)
-pyautogui.write('23_Magnesio_CTC_Grid', interval=0.1)
+pyautogui.write('23_Magnesio_CTC', interval=0.1)
 pyautogui.press('enter')
 sleep(5)
 
@@ -937,7 +937,7 @@ pyautogui.write(
 pyautogui.press('enter')
 sleep(1)
 pyautogui.click(fileNameCoordinateX, fileNameCoordinateY, duration=0.5)
-pyautogui.write('24_Potassio_CTC_Contour', interval=0.1)
+pyautogui.write('24_Potassio_CTC', interval=0.1)
 pyautogui.press('enter')
 
 sleep(3)
@@ -966,7 +966,7 @@ pyautogui.press('enter')
 sleep(1)
 
 pyautogui.click(fileNameCoordinateX, fileNameCoordinateY, duration=0.5)
-pyautogui.write('24_Potassio_CTC_Grid', interval=0.1)
+pyautogui.write('24_Potassio_CTC', interval=0.1)
 pyautogui.press('enter')
 sleep(5)
 
@@ -1000,7 +1000,7 @@ pyautogui.write(
 pyautogui.press('enter')
 sleep(1)
 pyautogui.click(fileNameCoordinateX, fileNameCoordinateY, duration=0.5)
-pyautogui.write('25_Hidrogenio_Mais_Aluminio_CTC_Contour', interval=0.1)
+pyautogui.write('25_Hidrogenio_Mais_Aluminio_CTC', interval=0.1)
 pyautogui.press('enter')
 
 sleep(3)
@@ -1029,7 +1029,7 @@ pyautogui.press('enter')
 sleep(1)
 
 pyautogui.click(fileNameCoordinateX, fileNameCoordinateY, duration=0.5)
-pyautogui.write('25_Hidrogenio_Mais_Aluminio_CTC_Grid', interval=0.1)
+pyautogui.write('25_Hidrogenio_Mais_Aluminio_CTC', interval=0.1)
 pyautogui.press('enter')
 sleep(5)
 
@@ -1063,7 +1063,7 @@ pyautogui.write(
 pyautogui.press('enter')
 sleep(1)
 pyautogui.click(fileNameCoordinateX, fileNameCoordinateY, duration=0.5)
-pyautogui.write('26_Relacao_Calcio_Magnesio_Contour', interval=0.1)
+pyautogui.write('26_Relacao_Calcio_Magnesio', interval=0.1)
 pyautogui.press('enter')
 
 sleep(3)
@@ -1092,7 +1092,7 @@ pyautogui.press('enter')
 sleep(1)
 
 pyautogui.click(fileNameCoordinateX, fileNameCoordinateY, duration=0.5)
-pyautogui.write('26_Relacao_Calcio_Magnesio_Grid', interval=0.1)
+pyautogui.write('26_Relacao_Calcio_Magnesio', interval=0.1)
 pyautogui.press('enter')
 sleep(5)
 
@@ -1126,7 +1126,7 @@ pyautogui.write(
 pyautogui.press('enter')
 sleep(1)
 pyautogui.click(fileNameCoordinateX, fileNameCoordinateY, duration=0.5)
-pyautogui.write('27_Relacao_Calcio_Potassio_Contour', interval=0.1)
+pyautogui.write('27_Relacao_Calcio_Potassio', interval=0.1)
 pyautogui.press('enter')
 
 sleep(3)
@@ -1155,7 +1155,7 @@ pyautogui.press('enter')
 sleep(1)
 
 pyautogui.click(fileNameCoordinateX, fileNameCoordinateY, duration=0.5)
-pyautogui.write('27_Relacao_Calcio_Potassio_Grid', interval=0.1)
+pyautogui.write('27_Relacao_Calcio_Potassio', interval=0.1)
 pyautogui.press('enter')
 sleep(5)
 
@@ -1189,7 +1189,7 @@ pyautogui.write(
 pyautogui.press('enter')
 sleep(1)
 pyautogui.click(fileNameCoordinateX, fileNameCoordinateY, duration=0.5)
-pyautogui.write('28_Relacao_Magnesio_Potassio_Contour', interval=0.1)
+pyautogui.write('28_Relacao_Magnesio_Potassio', interval=0.1)
 pyautogui.press('enter')
 
 sleep(3)
@@ -1218,7 +1218,7 @@ pyautogui.press('enter')
 sleep(1)
 
 pyautogui.click(fileNameCoordinateX, fileNameCoordinateY, duration=0.5)
-pyautogui.write('28_Relacao_Magnesio_Potassio_Grid', interval=0.1)
+pyautogui.write('28_Relacao_Magnesio_Potassio', interval=0.1)
 pyautogui.press('enter')
 sleep(5)
 
@@ -1252,7 +1252,7 @@ pyautogui.write(
 pyautogui.press('enter')
 sleep(1)
 pyautogui.click(fileNameCoordinateX, fileNameCoordinateY, duration=0.5)
-pyautogui.write('29_Cobre_Contour', interval=0.1)
+pyautogui.write('29_Cobre', interval=0.1)
 pyautogui.press('enter')
 
 sleep(3)
@@ -1281,7 +1281,7 @@ pyautogui.press('enter')
 sleep(1)
 
 pyautogui.click(fileNameCoordinateX, fileNameCoordinateY, duration=0.5)
-pyautogui.write('29_Cobre_Grid', interval=0.1)
+pyautogui.write('29_Cobre', interval=0.1)
 pyautogui.press('enter')
 sleep(5)
 
@@ -1315,7 +1315,7 @@ pyautogui.write(
 pyautogui.press('enter')
 sleep(1)
 pyautogui.click(fileNameCoordinateX, fileNameCoordinateY, duration=0.5)
-pyautogui.write('3_Argila_Contour', interval=0.1)
+pyautogui.write('3_Argila', interval=0.1)
 pyautogui.press('enter')
 
 sleep(3)
@@ -1344,7 +1344,7 @@ pyautogui.press('enter')
 sleep(1)
 
 pyautogui.click(fileNameCoordinateX, fileNameCoordinateY, duration=0.5)
-pyautogui.write('3_Argila_Grid', interval=0.1)
+pyautogui.write('3_Argila', interval=0.1)
 pyautogui.press('enter')
 sleep(5)
 
@@ -1378,7 +1378,7 @@ pyautogui.write(
 pyautogui.press('enter')
 sleep(1)
 pyautogui.click(fileNameCoordinateX, fileNameCoordinateY, duration=0.5)
-pyautogui.write('30_Ferro_Contour', interval=0.1)
+pyautogui.write('30_Ferro', interval=0.1)
 pyautogui.press('enter')
 
 sleep(3)
@@ -1407,7 +1407,7 @@ pyautogui.press('enter')
 sleep(1)
 
 pyautogui.click(fileNameCoordinateX, fileNameCoordinateY, duration=0.5)
-pyautogui.write('30_Ferro_Grid', interval=0.1)
+pyautogui.write('30_Ferro', interval=0.1)
 pyautogui.press('enter')
 sleep(5)
 
@@ -1441,7 +1441,7 @@ pyautogui.write(
 pyautogui.press('enter')
 sleep(1)
 pyautogui.click(fileNameCoordinateX, fileNameCoordinateY, duration=0.5)
-pyautogui.write('31_Manganes_Contour', interval=0.1)
+pyautogui.write('31_Manganes', interval=0.1)
 pyautogui.press('enter')
 
 sleep(3)
@@ -1470,7 +1470,7 @@ pyautogui.press('enter')
 sleep(1)
 
 pyautogui.click(fileNameCoordinateX, fileNameCoordinateY, duration=0.5)
-pyautogui.write('31_Manganes_Grid', interval=0.1)
+pyautogui.write('31_Manganes', interval=0.1)
 pyautogui.press('enter')
 sleep(5)
 
@@ -1504,7 +1504,7 @@ pyautogui.write(
 pyautogui.press('enter')
 sleep(1)
 pyautogui.click(fileNameCoordinateX, fileNameCoordinateY, duration=0.5)
-pyautogui.write('32_Zinco_Contour', interval=0.1)
+pyautogui.write('32_Zinco', interval=0.1)
 pyautogui.press('enter')
 
 sleep(3)
@@ -1533,7 +1533,7 @@ pyautogui.press('enter')
 sleep(1)
 
 pyautogui.click(fileNameCoordinateX, fileNameCoordinateY, duration=0.5)
-pyautogui.write('32_Zinco_Grid', interval=0.1)
+pyautogui.write('32_Zinco', interval=0.1)
 pyautogui.press('enter')
 sleep(5)
 
@@ -1567,7 +1567,7 @@ pyautogui.write(
 pyautogui.press('enter')
 sleep(1)
 pyautogui.click(fileNameCoordinateX, fileNameCoordinateY, duration=0.5)
-pyautogui.write('33_Sodio_Contour', interval=0.1)
+pyautogui.write('33_Sodio', interval=0.1)
 pyautogui.press('enter')
 
 sleep(3)
@@ -1596,7 +1596,7 @@ pyautogui.press('enter')
 sleep(1)
 
 pyautogui.click(fileNameCoordinateX, fileNameCoordinateY, duration=0.5)
-pyautogui.write('33_Sodio_Grid', interval=0.1)
+pyautogui.write('33_Sodio', interval=0.1)
 pyautogui.press('enter')
 sleep(5)
 
@@ -1630,7 +1630,7 @@ pyautogui.write(
 pyautogui.press('enter')
 sleep(1)
 pyautogui.click(fileNameCoordinateX, fileNameCoordinateY, duration=0.5)
-pyautogui.write('4_Areia_Contour', interval=0.1)
+pyautogui.write('4_Areia', interval=0.1)
 pyautogui.press('enter')
 
 sleep(3)
@@ -1659,7 +1659,7 @@ pyautogui.press('enter')
 sleep(1)
 
 pyautogui.click(fileNameCoordinateX, fileNameCoordinateY, duration=0.5)
-pyautogui.write('4_Areia_Grid', interval=0.1)
+pyautogui.write('4_Areia', interval=0.1)
 pyautogui.press('enter')
 sleep(5)
 
@@ -1693,7 +1693,7 @@ pyautogui.write(
 pyautogui.press('enter')
 sleep(1)
 pyautogui.click(fileNameCoordinateX, fileNameCoordinateY, duration=0.5)
-pyautogui.write('5_Silte_Contour', interval=0.1)
+pyautogui.write('5_Silte', interval=0.1)
 pyautogui.press('enter')
 
 sleep(3)
@@ -1722,7 +1722,7 @@ pyautogui.press('enter')
 sleep(1)
 
 pyautogui.click(fileNameCoordinateX, fileNameCoordinateY, duration=0.5)
-pyautogui.write('5_Silte_Grid', interval=0.1)
+pyautogui.write('5_Silte', interval=0.1)
 pyautogui.press('enter')
 sleep(5)
 
@@ -1756,7 +1756,7 @@ pyautogui.write(
 pyautogui.press('enter')
 sleep(1)
 pyautogui.click(fileNameCoordinateX, fileNameCoordinateY, duration=0.5)
-pyautogui.write('6_Materia_Organica_Contour', interval=0.1)
+pyautogui.write('6_Materia_Organica', interval=0.1)
 pyautogui.press('enter')
 
 sleep(3)
@@ -1785,7 +1785,7 @@ pyautogui.press('enter')
 sleep(1)
 
 pyautogui.click(fileNameCoordinateX, fileNameCoordinateY, duration=0.5)
-pyautogui.write('6_Materia_Organica_Grid', interval=0.1)
+pyautogui.write('6_Materia_Organica', interval=0.1)
 pyautogui.press('enter')
 sleep(5)
 
@@ -1819,7 +1819,7 @@ pyautogui.write(
 pyautogui.press('enter')
 sleep(1)
 pyautogui.click(fileNameCoordinateX, fileNameCoordinateY, duration=0.5)
-pyautogui.write('7_Carbono_Organico_Contour', interval=0.1)
+pyautogui.write('7_Carbono_Organico', interval=0.1)
 pyautogui.press('enter')
 
 sleep(3)
@@ -1848,7 +1848,7 @@ pyautogui.press('enter')
 sleep(1)
 
 pyautogui.click(fileNameCoordinateX, fileNameCoordinateY, duration=0.5)
-pyautogui.write('7_Carbono_Organico_Grid', interval=0.1)
+pyautogui.write('7_Carbono_Organico', interval=0.1)
 pyautogui.press('enter')
 sleep(5)
 
@@ -1882,7 +1882,7 @@ pyautogui.write(
 pyautogui.press('enter')
 sleep(1)
 pyautogui.click(fileNameCoordinateX, fileNameCoordinateY, duration=0.5)
-pyautogui.write('8_CTC_Total_Contour', interval=0.1)
+pyautogui.write('8_CTC_Total', interval=0.1)
 pyautogui.press('enter')
 
 sleep(3)
@@ -1911,7 +1911,7 @@ pyautogui.press('enter')
 sleep(1)
 
 pyautogui.click(fileNameCoordinateX, fileNameCoordinateY, duration=0.5)
-pyautogui.write('8_CTC_Total_Grid', interval=0.1)
+pyautogui.write('8_CTC_Total', interval=0.1)
 pyautogui.press('enter')
 sleep(5)
 
@@ -1945,7 +1945,7 @@ pyautogui.write(
 pyautogui.press('enter')
 sleep(1)
 pyautogui.click(fileNameCoordinateX, fileNameCoordinateY, duration=0.5)
-pyautogui.write('9_pH_Cloreto_de_Calcio_Contour', interval=0.1)
+pyautogui.write('9_pH_Cloreto_de_Calcio', interval=0.1)
 pyautogui.press('enter')
 
 sleep(3)
@@ -1974,6 +1974,6 @@ pyautogui.press('enter')
 sleep(1)
 
 pyautogui.click(fileNameCoordinateX, fileNameCoordinateY, duration=0.5)
-pyautogui.write('9_pH_Cloreto_de_Calcio_Grid', interval=0.1)
+pyautogui.write('9_pH_Cloreto_de_Calcio', interval=0.1)
 pyautogui.press('enter')
 sleep(5)

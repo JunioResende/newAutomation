@@ -693,19 +693,19 @@ SUM_ADDED = MEAN_ADDED
 COUNT_ADDED = SUM_ADDED
 
 arcpy.AddField_management(Entrada, "MIN", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MIN_ADDED, "MAX", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MAX_Added, "MEAN", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MEAN_ADDED, "SUM", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(SUM_ADDED, "COUNT", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 # 4_Areia
 
@@ -717,19 +717,19 @@ SUM_ADDED = MEAN_ADDED
 COUNT_ADDED = SUM_ADDED
 
 arcpy.AddField_management(Entrada, "MIN", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MIN_ADDED, "MAX", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MAX_Added, "MEAN", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MEAN_ADDED, "SUM", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(SUM_ADDED, "COUNT", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 # 5_Silte
 
@@ -741,19 +741,19 @@ SUM_ADDED = MEAN_ADDED
 COUNT_ADDED = SUM_ADDED
 
 arcpy.AddField_management(Entrada, "MIN", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MIN_ADDED, "MAX", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MAX_Added, "MEAN", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MEAN_ADDED, "SUM", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(SUM_ADDED, "COUNT", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 # 6_Materia_Organica
 
@@ -765,19 +765,19 @@ SUM_ADDED = MEAN_ADDED
 COUNT_ADDED = SUM_ADDED
 
 arcpy.AddField_management(Entrada, "MIN", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MIN_ADDED, "MAX", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MAX_Added, "MEAN", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MEAN_ADDED, "SUM", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(SUM_ADDED, "COUNT", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 # 7_Carbono_Organico
 
@@ -789,19 +789,19 @@ SUM_ADDED = MEAN_ADDED
 COUNT_ADDED = SUM_ADDED
 
 arcpy.AddField_management(Entrada, "MIN", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MIN_ADDED, "MAX", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MAX_Added, "MEAN", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MEAN_ADDED, "SUM", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(SUM_ADDED, "COUNT", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 # 8_CTC_Total
 
@@ -813,19 +813,19 @@ SUM_ADDED = MEAN_ADDED
 COUNT_ADDED = SUM_ADDED
 
 arcpy.AddField_management(Entrada, "MIN", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MIN_ADDED, "MAX", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MAX_Added, "MEAN", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MEAN_ADDED, "SUM", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(SUM_ADDED, "COUNT", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 # 9_pH_Cloreto_de_Calcio
 
@@ -837,19 +837,19 @@ SUM_ADDED = MEAN_ADDED
 COUNT_ADDED = SUM_ADDED
 
 arcpy.AddField_management(Entrada, "MIN", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MIN_ADDED, "MAX", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MAX_Added, "MEAN", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MEAN_ADDED, "SUM", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(SUM_ADDED, "COUNT", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 # 10_Saturacao_de_Bases
 
@@ -861,19 +861,19 @@ SUM_ADDED = MEAN_ADDED
 COUNT_ADDED = SUM_ADDED
 
 arcpy.AddField_management(Entrada, "MIN", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MIN_ADDED, "MAX", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MAX_Added, "MEAN", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MEAN_ADDED, "SUM", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(SUM_ADDED, "COUNT", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 # 11_Calcio
 
@@ -885,19 +885,19 @@ SUM_ADDED = MEAN_ADDED
 COUNT_ADDED = SUM_ADDED
 
 arcpy.AddField_management(Entrada, "MIN", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MIN_ADDED, "MAX", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MAX_Added, "MEAN", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MEAN_ADDED, "SUM", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(SUM_ADDED, "COUNT", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 # 12_Magnesio
 
@@ -909,19 +909,19 @@ SUM_ADDED = MEAN_ADDED
 COUNT_ADDED = SUM_ADDED
 
 arcpy.AddField_management(Entrada, "MIN", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MIN_ADDED, "MAX", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MAX_Added, "MEAN", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MEAN_ADDED, "SUM", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(SUM_ADDED, "COUNT", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 # 13_Calcio_Mais_Magnesio
 
@@ -933,19 +933,19 @@ SUM_ADDED = MEAN_ADDED
 COUNT_ADDED = SUM_ADDED
 
 arcpy.AddField_management(Entrada, "MIN", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MIN_ADDED, "MAX", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MAX_Added, "MEAN", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MEAN_ADDED, "SUM", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(SUM_ADDED, "COUNT", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 # 14_Aluminio
 
@@ -957,19 +957,19 @@ SUM_ADDED = MEAN_ADDED
 COUNT_ADDED = SUM_ADDED
 
 arcpy.AddField_management(Entrada, "MIN", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MIN_ADDED, "MAX", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MAX_Added, "MEAN", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MEAN_ADDED, "SUM", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(SUM_ADDED, "COUNT", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 # 15_Hidrogenio_Mais_Aluminio
 
@@ -981,19 +981,19 @@ SUM_ADDED = MEAN_ADDED
 COUNT_ADDED = SUM_ADDED
 
 arcpy.AddField_management(Entrada, "MIN", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MIN_ADDED, "MAX", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MAX_Added, "MEAN", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MEAN_ADDED, "SUM", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(SUM_ADDED, "COUNT", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 # 16_Saturacao_por_Aluminio
 
@@ -1005,19 +1005,19 @@ SUM_ADDED = MEAN_ADDED
 COUNT_ADDED = SUM_ADDED
 
 arcpy.AddField_management(Entrada, "MIN", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MIN_ADDED, "MAX", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MAX_Added, "MEAN", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MEAN_ADDED, "SUM", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(SUM_ADDED, "COUNT", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 # 17_Potassio_ppm
 
@@ -1029,19 +1029,19 @@ SUM_ADDED = MEAN_ADDED
 COUNT_ADDED = SUM_ADDED
 
 arcpy.AddField_management(Entrada, "MIN", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MIN_ADDED, "MAX", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MAX_Added, "MEAN", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MEAN_ADDED, "SUM", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(SUM_ADDED, "COUNT", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 # 18_Fosforo_Mehlich
 
@@ -1053,19 +1053,19 @@ SUM_ADDED = MEAN_ADDED
 COUNT_ADDED = SUM_ADDED
 
 arcpy.AddField_management(Entrada, "MIN", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MIN_ADDED, "MAX", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MAX_Added, "MEAN", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MEAN_ADDED, "SUM", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(SUM_ADDED, "COUNT", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 # 19_Potassio
 
@@ -1077,19 +1077,19 @@ SUM_ADDED = MEAN_ADDED
 COUNT_ADDED = SUM_ADDED
 
 arcpy.AddField_management(Entrada, "MIN", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MIN_ADDED, "MAX", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MAX_Added, "MEAN", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MEAN_ADDED, "SUM", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(SUM_ADDED, "COUNT", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 # 20_Enxofre
 
@@ -1101,19 +1101,19 @@ SUM_ADDED = MEAN_ADDED
 COUNT_ADDED = SUM_ADDED
 
 arcpy.AddField_management(Entrada, "MIN", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MIN_ADDED, "MAX", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MAX_Added, "MEAN", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MEAN_ADDED, "SUM", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(SUM_ADDED, "COUNT", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 # 21_Boro
 
@@ -1125,19 +1125,19 @@ SUM_ADDED = MEAN_ADDED
 COUNT_ADDED = SUM_ADDED
 
 arcpy.AddField_management(Entrada, "MIN", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MIN_ADDED, "MAX", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MAX_Added, "MEAN", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MEAN_ADDED, "SUM", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(SUM_ADDED, "COUNT", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 # 22_Calcio_CTC
 
@@ -1149,19 +1149,19 @@ SUM_ADDED = MEAN_ADDED
 COUNT_ADDED = SUM_ADDED
 
 arcpy.AddField_management(Entrada, "MIN", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MIN_ADDED, "MAX", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MAX_Added, "MEAN", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MEAN_ADDED, "SUM", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(SUM_ADDED, "COUNT", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 # 23_Magnesio_CTC
 
@@ -1173,19 +1173,19 @@ SUM_ADDED = MEAN_ADDED
 COUNT_ADDED = SUM_ADDED
 
 arcpy.AddField_management(Entrada, "MIN", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MIN_ADDED, "MAX", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MAX_Added, "MEAN", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MEAN_ADDED, "SUM", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(SUM_ADDED, "COUNT", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 # 24_Potassio_CTC
 
@@ -1197,19 +1197,19 @@ SUM_ADDED = MEAN_ADDED
 COUNT_ADDED = SUM_ADDED
 
 arcpy.AddField_management(Entrada, "MIN", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MIN_ADDED, "MAX", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MAX_Added, "MEAN", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MEAN_ADDED, "SUM", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(SUM_ADDED, "COUNT", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 # 25_Hidrogenio_Mais_Aluminio_CTC
 
@@ -1221,19 +1221,19 @@ SUM_ADDED = MEAN_ADDED
 COUNT_ADDED = SUM_ADDED
 
 arcpy.AddField_management(Entrada, "MIN", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MIN_ADDED, "MAX", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MAX_Added, "MEAN", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MEAN_ADDED, "SUM", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(SUM_ADDED, "COUNT", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 # 26_Relacao_Calcio_Magnesio
 
@@ -1245,19 +1245,19 @@ SUM_ADDED = MEAN_ADDED
 COUNT_ADDED = SUM_ADDED
 
 arcpy.AddField_management(Entrada, "MIN", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MIN_ADDED, "MAX", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MAX_Added, "MEAN", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MEAN_ADDED, "SUM", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(SUM_ADDED, "COUNT", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 # 27_Relacao_Calcio_Potassio
 
@@ -1269,19 +1269,19 @@ SUM_ADDED = MEAN_ADDED
 COUNT_ADDED = SUM_ADDED
 
 arcpy.AddField_management(Entrada, "MIN", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MIN_ADDED, "MAX", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MAX_Added, "MEAN", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MEAN_ADDED, "SUM", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(SUM_ADDED, "COUNT", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 # 28_Relacao_Magnesio_Potassio
 
@@ -1293,19 +1293,19 @@ SUM_ADDED = MEAN_ADDED
 COUNT_ADDED = SUM_ADDED
 
 arcpy.AddField_management(Entrada, "MIN", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MIN_ADDED, "MAX", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MAX_Added, "MEAN", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MEAN_ADDED, "SUM", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(SUM_ADDED, "COUNT", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 # 29_Cobre
 
@@ -1317,19 +1317,19 @@ SUM_ADDED = MEAN_ADDED
 COUNT_ADDED = SUM_ADDED
 
 arcpy.AddField_management(Entrada, "MIN", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MIN_ADDED, "MAX", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MAX_Added, "MEAN", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MEAN_ADDED, "SUM", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(SUM_ADDED, "COUNT", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 # 30_Ferro
 
@@ -1341,19 +1341,19 @@ SUM_ADDED = MEAN_ADDED
 COUNT_ADDED = SUM_ADDED
 
 arcpy.AddField_management(Entrada, "MIN", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MIN_ADDED, "MAX", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MAX_Added, "MEAN", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MEAN_ADDED, "SUM", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(SUM_ADDED, "COUNT", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 # 31_Manganes
 
@@ -1365,19 +1365,19 @@ SUM_ADDED = MEAN_ADDED
 COUNT_ADDED = SUM_ADDED
 
 arcpy.AddField_management(Entrada, "MIN", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MIN_ADDED, "MAX", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MAX_Added, "MEAN", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MEAN_ADDED, "SUM", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(SUM_ADDED, "COUNT", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 # 32_Zinco
 
@@ -1389,19 +1389,19 @@ SUM_ADDED = MEAN_ADDED
 COUNT_ADDED = SUM_ADDED
 
 arcpy.AddField_management(Entrada, "MIN", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MIN_ADDED, "MAX", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MAX_Added, "MEAN", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MEAN_ADDED, "SUM", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(SUM_ADDED, "COUNT", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 # 33_Sodio
 
@@ -1413,19 +1413,19 @@ SUM_ADDED = MEAN_ADDED
 COUNT_ADDED = SUM_ADDED
 
 arcpy.AddField_management(Entrada, "MIN", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MIN_ADDED, "MAX", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MAX_Added, "MEAN", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(MEAN_ADDED, "SUM", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 arcpy.AddField_management(SUM_ADDED, "COUNT", "DOUBLE",
-                          "10", "2", "", "", "NULLABLE", "NON_REQUIRED", "")
+                          "10", "4", "", "", "NULLABLE", "NON_REQUIRED", "")
 
 # CALC FIELDS
 # 3_Argila
