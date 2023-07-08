@@ -23,9 +23,9 @@ pathCoordinateY = 71
 fileNameCoordinateX = -729
 fileNameCoordinateY = 456
 
-client = 'Kassio Vieira de Carvalho'
-year = '2022'
-farm = 'Fazenda Matrincha'
+client = input('Qual e o cliente? ')
+year = input('Qual o ano? ')
+farm = input('Qual a Fazenda')
 
 contourPath = f'D:/Cloud/PROGEO/Clientes/{client}/{year}/{farm}/Processado/Shapefiles/smsExport/contour'
 gridPath = f'D:/Cloud/PROGEO/Clientes/{client}/{year}/{farm}/Processado/Shapefiles/smsExport/grid'
