@@ -1,0 +1,6 @@
+#Tamanho e posicao do frame
+positionFrameX = "19,6049 cm"
+positionFrameY = "12,7 cm"
+
+sizeFrameWidth = "9,0954 cm"
+sizeFrameHeiht = "7,2968 cm"
