@@ -1,6 +1,17 @@
-#Tamanho e posicao do frame
-positionFrameX = "19,6049 cm"
-positionFrameY = "12,7 cm"
+#Tamanho e posicao do Grafico
+positionGraphicX = "19,6049 cm"
+positionGraphicY = "12,7 cm"
 
-sizeFrameWidth = "9,0954 cm"
-sizeFrameHeiht = "7,2968 cm"
+sizeGraphicWidth = "9,0954 cm"
+sizeGraphicHeiht = "7,2968 cm"
+
+#Tamanho e posicao da Tabela
+positionTableX = "19,6105 cm"
+positionTableY = "2,9269 cm"
+
+sizeTableWidth = "9,0898 cm"
+sizeTableHeight = "9,7549 cm"
+
+#graficoExcel
+graphicSizeWidth = "9,1 cm"
+graphicSizeHeight = "11,8 cm"
