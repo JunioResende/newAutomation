@@ -67,7 +67,6 @@ positionTableCoordinateY = "3,4303 cm"
 sizeTableCoordinateWidth = "9,1029 cm"
 sizeTableCoordinateHeight = "9,254 cm"
 
-message = input('Voce lembrou de Atualizar a base do excel? ')
 
 # 03_Argila
 # Marca checkBox Atributo
