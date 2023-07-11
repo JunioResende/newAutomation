@@ -37,6 +37,14 @@ colorRampSelectCoordinateY = 456
 slelectArgArColorCoordinateX = 930
 slelectArgArColorCoordinateY = 875
 
+# Seleciona cor Silte
+slelectSilColorCoordinateX = 946
+slelectSilColorCoordinateY = 524
+
+# Seleciona cor Restante
+slelectResColorCoordinateX = 935
+slelectResColorCoordinateY = 762
+
 # abrir flip symbols
 openFlipSymbolsCoordinateX = 792
 openFlipSymbolsCoordinateY = 588
@@ -61,10 +69,7 @@ sizeTableCoordinateHeight = "9,254 cm"
 
 message = input('Voce lembrou de Atualizar a base do excel? ')
 
-# Minimiza vscode
-pyautogui.click(codeMinimizeCoordinateX, codeMinimizeCoordinateY, duration=0.5)
-
-# Argila
+# 03_Argila
 # Marca checkBox Atributo
 pyautogui.click(checkBoxAtributeCoordinateX,
                 checkBoxAtributeCoordinateY, duration=0.5)
@@ -93,24 +98,24 @@ sleep(1)
 # Classificar
 pyautogui.click(classifyAtributeCoordinateX,
                 classifyAtributeCoordinateY, duration=0.5)
-pyautogui.write('11')
+pyautogui.write('21')
 
 # Color ramp
 pyautogui.click(colorRampSelectCoordinateX,
                 colorRampSelectCoordinateY, duration=0.5)
 sleep(1)
 
-pyautogui.click(slelectArgArColorCoordinateX,
-                slelectArgArColorCoordinateY, duration=0.5)
+pyautogui.click(slelectResColorCoordinateX,
+                slelectResColorCoordinateY, duration=0.5)
 sleep(1)
 
 # flip symbols
-pyautogui.click(openFlipSymbolsCoordinateX,
-                openFlipSymbolsCoordinateY, button='right', duration=0.1)
-sleep(1)
+# pyautogui.click(openFlipSymbolsCoordinateX,
+# openFlipSymbolsCoordinateY, button='right', duration=0.1)
+# sleep(1)
 
-pyautogui.click(flipSymbolsCoordinateX, flipSymbolsCoordinatey, duration=0.5)
-sleep(1)
+# pyautogui.click(flipSymbolsCoordinateX, flipSymbolsCoordinatey, duration=0.5)
+# sleep(1)
 
 # remove border
 # 1
@@ -205,75 +210,83 @@ pyautogui.doubleClick(1152, 489, duration=0.5)
 pyautogui.write('0')
 pyautogui.press('enter')
 
+# 11
+pyautogui.click(1187, 611, duration=0.5)
+pyautogui.doubleClick(804, 604, duration=0.5)
+
+pyautogui.doubleClick(1152, 489, duration=0.5)
+
+pyautogui.write('0')
 pyautogui.press('enter')
 
-# Stats
-pyautogui.doubleClick(1444, 339, duration=0.5)
-# pyautogui.click(-1238,686, duration=2)
+# 11
+pyautogui.click(1187, 611, duration=0.5)
+pyautogui.doubleClick(804, 604, duration=0.5)
 
-# dimensionar stats
-pyautogui.click(1702, 523, button='right', duration=0.5)
-sleep(0.5)
-pyautogui.click(1761, 859, duration=0.5)
+pyautogui.doubleClick(1152, 489, duration=0.5)
 
-pyautogui.click(873, 393, duration=0.5)
-pyautogui.hotkey('ctrl', 'a')
-pyautogui.write(positionGraphicCoordinateX, interval=0.1)
-
-pyautogui.click(881, 420, duration=0.5)
-pyautogui.hotkey('ctrl', 'a')
-pyautogui.write(positionGraphicCoordinateY, interval=0.1)
-
-pyautogui.click(1074, 394, duration=0.5)
-pyautogui.hotkey('ctrl', 'a')
-pyautogui.write(sizeGraphicCoordinateWidth, interval=0.1)
-
-pyautogui.click(1074, 420, duration=0.5)
-pyautogui.hotkey('ctrl', 'a')
-pyautogui.write(sizeGraphicCoordinateHeiht, interval=0.1)
-
+pyautogui.write('0')
 pyautogui.press('enter')
 
-# Table
-pyautogui.doubleClick(1452, 657, duration=0.5)
-# pyautogui.click(-1237,690, duration=2)
+# 11
+pyautogui.click(1187, 611, duration=0.5)
+pyautogui.doubleClick(804, 604, duration=0.5)
 
-# dimensionar Table
-pyautogui.click(1705, 910, button='right', duration=0.5)
-sleep(0.5)
-pyautogui.click(1795, 893, duration=0.5)
+pyautogui.doubleClick(1152, 489, duration=0.5)
 
-pyautogui.click(873, 393, duration=0.5)
-pyautogui.hotkey('ctrl', 'a')
-pyautogui.write(positionTableCoordinateX, interval=0.1)
-
-pyautogui.click(881, 420, duration=0.5)
-pyautogui.hotkey('ctrl', 'a')
-pyautogui.write(positionTableCoordinateY, interval=0.1)
-
-pyautogui.click(1074, 394, duration=0.5)
-pyautogui.hotkey('ctrl', 'a')
-pyautogui.write(sizeTableCoordinateWidth, interval=0.1)
-
-pyautogui.click(1074, 420, duration=0.5)
-pyautogui.hotkey('ctrl', 'a')
-pyautogui.write(sizeTableCoordinateHeight, interval=0.1)
-
+pyautogui.write('0')
 pyautogui.press('enter')
 
-# Alterar Pagina
-pyautogui.doubleClick(1615, 915, duration=0.5)
-pyautogui.write('03', interval=0.1)
-pyautogui.click(940, 695, duration=0.5)
+# 11
+pyautogui.click(1187, 611, duration=0.5)
+pyautogui.doubleClick(804, 604, duration=0.5)
 
-# Save
-pyautogui.click(19, 31, duration=0.5)
-pyautogui.click(53, 338, duration=0.5)
-sleep(5)
-pyautogui.write('03_Argila', interval=0.1)
+pyautogui.doubleClick(1152, 489, duration=0.5)
+
+pyautogui.write('0')
 pyautogui.press('enter')
-sleep(10)
 
-# remove atribute
-pyautogui.click(95, 173, button='right', duration=0.5)
-pyautogui.click(148, 209, duration=0.5)
+# 11
+pyautogui.click(1187, 611, duration=0.5)
+pyautogui.doubleClick(804, 604, duration=0.5)
+
+pyautogui.doubleClick(1152, 489, duration=0.5)
+
+pyautogui.write('0')
+pyautogui.press('enter')
+
+# 11
+pyautogui.click(1187, 611, duration=0.5)
+pyautogui.doubleClick(804, 604, duration=0.5)
+
+pyautogui.doubleClick(1152, 489, duration=0.5)
+
+pyautogui.write('0')
+pyautogui.press('enter')
+
+# 11
+pyautogui.click(1187, 611, duration=0.5)
+pyautogui.doubleClick(804, 604, duration=0.5)
+
+pyautogui.doubleClick(1152, 489, duration=0.5)
+
+pyautogui.write('0')
+pyautogui.press('enter')
+
+# 11
+pyautogui.click(1187, 611, duration=0.5)
+pyautogui.doubleClick(804, 604, duration=0.5)
+
+pyautogui.doubleClick(1152, 489, duration=0.5)
+
+pyautogui.write('0')
+pyautogui.press('enter')
+
+# 11
+pyautogui.click(1187, 611, duration=0.5)
+pyautogui.doubleClick(804, 604, duration=0.5)
+
+pyautogui.doubleClick(1152, 489, duration=0.5)
+
+pyautogui.write('0')
+pyautogui.press('enter')
