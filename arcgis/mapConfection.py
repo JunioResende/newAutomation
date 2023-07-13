@@ -195,6 +195,7 @@ pyautogui.doubleClick(1152, 489, duration=0.5)
 pyautogui.write('0')
 pyautogui.press('enter')
 
+# nao remover
 pyautogui.press('enter')
 
 sleep(5)
@@ -2612,6 +2613,9 @@ pyautogui.doubleClick(795, 556, duration=0.5)
 pyautogui.doubleClick(1152, 489, duration=0.5)
 
 pyautogui.write('0')
+pyautogui.press('enter')
+
+# Nao remover
 pyautogui.press('enter')
 
 sleep(5)
