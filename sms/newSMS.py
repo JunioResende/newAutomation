@@ -30,7 +30,7 @@ farm = input('Qual a Fazenda')
 contourPath = f'D:/Cloud/PROGEO/Clientes/{client}/{year}/{farm}/Processado/Shapefiles/smsExport/contour'
 gridPath = f'D:/Cloud/PROGEO/Clientes/{client}/{year}/{farm}/Processado/Shapefiles/smsExport/grid'
 
-atributeExecutionTime = 60
+atributeExecutionTime = 120
 
 # 10_Saturacao_de_Bases
 # Select Atribute
