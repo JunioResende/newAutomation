@@ -17,11 +17,11 @@ centerMapExportCoordinateY = 449
 exportCoordinateX = -554
 exportCoordinateY = 419
 
-pathCoordinateX = -547
-pathCoordinateY = 125
+pathCoordinateX = -714
+pathCoordinateY = 72
 
-fileNameCoordinateX = -1039
-fileNameCoordinateY = 515
+fileNameCoordinateX = -1219
+fileNameCoordinateY = 459
 
 client = input('Qual e o cliente? ')
 year = input('Qual o ano? ')
@@ -30,7 +30,7 @@ farm = input('Qual a Fazenda')
 contourPath = f'D:/Cloud/PROGEO/Clientes/{client}/{year}/{farm}/Processado/Shapefiles/smsExport/contour'
 gridPath = f'D:/Cloud/PROGEO/Clientes/{client}/{year}/{farm}/Processado/Shapefiles/smsExport/grid'
 
-atributeExecutionTime = 120
+atributeExecutionTime = 30
 
 # 10_Saturacao_de_Bases
 # Select Atribute
