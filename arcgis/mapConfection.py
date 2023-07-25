@@ -224,7 +224,7 @@ pyautogui.click(1891, 19, duration=0.5)
 sleep(1)
 
 # redimensiona stats
-pyautogui.moveTo(1724, 554, 1)
+pyautogui.moveTo(1697, 555, 1)
 sleep(1)
 pyautogui.dragTo(1642, 476, 2, button='left')
 sleep(2)
@@ -251,13 +251,13 @@ pyautogui.click(1891, 19, duration=0.5)
 sleep(1)
 
 # redimensiona Legends
-pyautogui.moveTo(1771, 965, 1)
+pyautogui.moveTo(1740, 967, 1)
 sleep(1)
-pyautogui.dragTo(1640, 817, 2, button='left')
+pyautogui.dragTo(1603, 820, 2, button='left')
 sleep(2)
 
 # Alterar Pagina
-pyautogui.doubleClick(1615, 915, duration=0.5)
+pyautogui.doubleClick(1587, 920, duration=0.5)
 pyautogui.write('03', interval=0.1)
 sleep(1)
 pyautogui.click(940, 695, duration=0.5)
@@ -427,7 +427,7 @@ pyautogui.click(1891, 19, duration=0.5)
 sleep(1)
 
 # redimensiona stats
-pyautogui.moveTo(1724, 554, 1)
+pyautogui.moveTo(1697, 555, 1)
 sleep(1)
 pyautogui.dragTo(1642, 476, 2, button='left')
 sleep(2)
@@ -451,13 +451,13 @@ pyautogui.click(1891, 19, duration=0.5)
 sleep(1)
 
 # redimensiona Legends
-pyautogui.moveTo(1771, 965, 1)
+pyautogui.moveTo(1740, 967, 1)
 sleep(1)
-pyautogui.dragTo(1640, 817, 2, button='left')
+pyautogui.dragTo(1603, 820, 2, button='left')
 sleep(2)
 
 # Alterar Pagina
-pyautogui.doubleClick(1615, 915, duration=0.5)
+pyautogui.doubleClick(1587, 920, duration=0.5)
 pyautogui.write('04', interval=0.1)
 sleep(1)
 pyautogui.click(940, 695, duration=0.5)
@@ -601,7 +601,7 @@ pyautogui.click(1891, 19, duration=0.5)
 sleep(1)
 
 # redimensiona stats
-pyautogui.moveTo(1724, 554, 1)
+pyautogui.moveTo(1697, 555, 1)
 sleep(1)
 pyautogui.dragTo(1642, 476, 2, button='left')
 sleep(2)
@@ -625,13 +625,13 @@ pyautogui.click(1891, 19, duration=0.5)
 sleep(1)
 
 # redimensiona Legends
-pyautogui.moveTo(1771, 965, 1)
+pyautogui.moveTo(1740, 967, 1)
 sleep(1)
-pyautogui.dragTo(1640, 817, 2, button='left')
+pyautogui.dragTo(1603, 820, 2, button='left')
 sleep(2)
 
 # Alterar Pagina
-pyautogui.doubleClick(1615, 915, duration=0.5)
+pyautogui.doubleClick(1587, 920, duration=0.5)
 pyautogui.write('05', interval=0.1)
 sleep(1)
 pyautogui.click(940, 695, duration=0.5)
@@ -801,7 +801,7 @@ pyautogui.click(1891, 19, duration=0.5)
 sleep(1)
 
 # redimensiona stats
-pyautogui.moveTo(1724, 554, 1)
+pyautogui.moveTo(1697, 555, 1)
 sleep(1)
 pyautogui.dragTo(1642, 476, 2, button='left')
 sleep(2)
@@ -825,13 +825,13 @@ pyautogui.click(1891, 19, duration=0.5)
 sleep(1)
 
 # redimensiona Legends
-pyautogui.moveTo(1771, 965, 1)
+pyautogui.moveTo(1740, 967, 1)
 sleep(1)
-pyautogui.dragTo(1640, 817, 2, button='left')
+pyautogui.dragTo(1603, 820, 2, button='left')
 sleep(2)
 
 # Alterar Pagina
-pyautogui.doubleClick(1615, 915, duration=0.5)
+pyautogui.doubleClick(1587, 920, duration=0.5)
 pyautogui.write('06', interval=0.1)
 sleep(1)
 pyautogui.click(940, 695, duration=0.5)
@@ -975,7 +975,7 @@ pyautogui.click(1891, 19, duration=0.5)
 sleep(1)
 
 # redimensiona stats
-pyautogui.moveTo(1724, 554, 1)
+pyautogui.moveTo(1697, 555, 1)
 sleep(1)
 pyautogui.dragTo(1642, 476, 2, button='left')
 sleep(2)
@@ -999,13 +999,13 @@ pyautogui.click(1891, 19, duration=0.5)
 sleep(1)
 
 # redimensiona Legends
-pyautogui.moveTo(1771, 965, 1)
+pyautogui.moveTo(1740, 967, 1)
 sleep(1)
-pyautogui.dragTo(1640, 817, 2, button='left')
+pyautogui.dragTo(1603, 820, 2, button='left')
 sleep(2)
 
 # Alterar Pagina
-pyautogui.doubleClick(1615, 915, duration=0.5)
+pyautogui.doubleClick(1587, 920, duration=0.5)
 pyautogui.write('07', interval=0.1)
 sleep(1)
 pyautogui.click(940, 695, duration=0.5)
@@ -1175,7 +1175,7 @@ pyautogui.click(1891, 19, duration=0.5)
 sleep(1)
 
 # redimensiona stats
-pyautogui.moveTo(1724, 554, 1)
+pyautogui.moveTo(1697, 555, 1)
 sleep(1)
 pyautogui.dragTo(1642, 476, 2, button='left')
 sleep(2)
@@ -1199,13 +1199,13 @@ pyautogui.click(1891, 19, duration=0.5)
 sleep(1)
 
 # redimensiona Legends
-pyautogui.moveTo(1771, 965, 1)
+pyautogui.moveTo(1740, 967, 1)
 sleep(1)
-pyautogui.dragTo(1640, 817, 2, button='left')
+pyautogui.dragTo(1603, 820, 2, button='left')
 sleep(2)
 
 # Alterar Pagina
-pyautogui.doubleClick(1615, 915, duration=0.5)
+pyautogui.doubleClick(1587, 920, duration=0.5)
 pyautogui.write('08', interval=0.1)
 sleep(1)
 pyautogui.click(940, 695, duration=0.5)
@@ -1349,7 +1349,7 @@ pyautogui.click(1891, 19, duration=0.5)
 sleep(1)
 
 # redimensiona stats
-pyautogui.moveTo(1724, 554, 1)
+pyautogui.moveTo(1697, 555, 1)
 sleep(1)
 pyautogui.dragTo(1642, 476, 2, button='left')
 sleep(2)
@@ -1373,13 +1373,13 @@ pyautogui.click(1891, 19, duration=0.5)
 sleep(1)
 
 # redimensiona Legends
-pyautogui.moveTo(1771, 965, 1)
+pyautogui.moveTo(1740, 967, 1)
 sleep(1)
-pyautogui.dragTo(1640, 817, 2, button='left')
+pyautogui.dragTo(1603, 820, 2, button='left')
 sleep(2)
 
 # Alterar Pagina
-pyautogui.doubleClick(1615, 915, duration=0.5)
+pyautogui.doubleClick(1587, 920, duration=0.5)
 pyautogui.write('09', interval=0.1)
 sleep(1)
 pyautogui.click(940, 695, duration=0.5)
@@ -1548,7 +1548,7 @@ pyautogui.click(1891, 19, duration=0.5)
 sleep(1)
 
 # redimensiona stats
-pyautogui.moveTo(1724, 554, 1)
+pyautogui.moveTo(1697, 555, 1)
 sleep(1)
 pyautogui.dragTo(1642, 476, 2, button='left')
 sleep(2)
@@ -1572,13 +1572,13 @@ pyautogui.click(1891, 19, duration=0.5)
 sleep(1)
 
 # redimensiona Legends
-pyautogui.moveTo(1771, 965, 1)
+pyautogui.moveTo(1740, 967, 1)
 sleep(1)
-pyautogui.dragTo(1640, 817, 2, button='left')
+pyautogui.dragTo(1603, 820, 2, button='left')
 sleep(2)
 
 # Alterar Pagina
-pyautogui.doubleClick(1615, 915, duration=0.5)
+pyautogui.doubleClick(1587, 920, duration=0.5)
 pyautogui.write('10', interval=0.1)
 sleep(1)
 pyautogui.click(940, 695, duration=0.5)
@@ -1756,7 +1756,7 @@ pyautogui.click(1891, 19, duration=0.5)
 sleep(1)
 
 # redimensiona stats
-pyautogui.moveTo(1724, 554, 1)
+pyautogui.moveTo(1697, 555, 1)
 sleep(1)
 pyautogui.dragTo(1642, 476, 2, button='left')
 sleep(2)
@@ -1780,13 +1780,13 @@ pyautogui.click(1891, 19, duration=0.5)
 sleep(1)
 
 # redimensiona Legends
-pyautogui.moveTo(1771, 965, 1)
+pyautogui.moveTo(1740, 967, 1)
 sleep(1)
-pyautogui.dragTo(1640, 817, 2, button='left')
+pyautogui.dragTo(1603, 820, 2, button='left')
 sleep(2)
 
 # Alterar Pagina
-pyautogui.doubleClick(1615, 915, duration=0.5)
+pyautogui.doubleClick(1587, 920, duration=0.5)
 pyautogui.write('11', interval=0.1)
 sleep(1)
 pyautogui.click(940, 695, duration=0.5)
@@ -1982,7 +1982,7 @@ pyautogui.click(1891, 19, duration=0.5)
 sleep(1)
 
 # redimensiona stats
-pyautogui.moveTo(1724, 554, 1)
+pyautogui.moveTo(1697, 555, 1)
 sleep(1)
 pyautogui.dragTo(1642, 476, 2, button='left')
 sleep(2)
@@ -2006,13 +2006,13 @@ pyautogui.click(1891, 19, duration=0.5)
 sleep(1)
 
 # redimensiona Legends
-pyautogui.moveTo(1771, 965, 1)
+pyautogui.moveTo(1740, 967, 1)
 sleep(1)
-pyautogui.dragTo(1640, 817, 2, button='left')
+pyautogui.dragTo(1603, 820, 2, button='left')
 sleep(2)
 
 # Alterar Pagina
-pyautogui.doubleClick(1615, 915, duration=0.5)
+pyautogui.doubleClick(1587, 920, duration=0.5)
 pyautogui.write('12', interval=0.1)
 sleep(1)
 pyautogui.click(940, 695, duration=0.5)
@@ -2154,7 +2154,7 @@ pyautogui.click(1891, 19, duration=0.5)
 sleep(1)
 
 # redimensiona stats
-pyautogui.moveTo(1724, 554, 1)
+pyautogui.moveTo(1697, 555, 1)
 sleep(1)
 pyautogui.dragTo(1642, 476, 2, button='left')
 sleep(2)
@@ -2178,13 +2178,13 @@ pyautogui.click(1891, 19, duration=0.5)
 sleep(1)
 
 # redimensiona Legends
-pyautogui.moveTo(1771, 965, 1)
+pyautogui.moveTo(1740, 967, 1)
 sleep(1)
-pyautogui.dragTo(1640, 817, 2, button='left')
+pyautogui.dragTo(1603, 820, 2, button='left')
 sleep(2)
 
 # Alterar Pagina
-pyautogui.doubleClick(1615, 915, duration=0.5)
+pyautogui.doubleClick(1587, 920, duration=0.5)
 pyautogui.write('13', interval=0.1)
 sleep(1)
 pyautogui.click(940, 695, duration=0.5)
@@ -2310,7 +2310,7 @@ pyautogui.click(1891, 19, duration=0.5)
 sleep(1)
 
 # redimensiona stats
-pyautogui.moveTo(1724, 554, 1)
+pyautogui.moveTo(1697, 555, 1)
 sleep(1)
 pyautogui.dragTo(1642, 476, 2, button='left')
 sleep(2)
@@ -2334,13 +2334,13 @@ pyautogui.click(1891, 19, duration=0.5)
 sleep(1)
 
 # redimensiona Legends
-pyautogui.moveTo(1771, 965, 1)
+pyautogui.moveTo(1740, 967, 1)
 sleep(1)
-pyautogui.dragTo(1640, 817, 2, button='left')
+pyautogui.dragTo(1603, 820, 2, button='left')
 sleep(2)
 
 # Alterar Pagina
-pyautogui.doubleClick(1615, 915, duration=0.5)
+pyautogui.doubleClick(1587, 920, duration=0.5)
 pyautogui.write('14', interval=0.1)
 sleep(1)
 pyautogui.click(940, 695, duration=0.5)
@@ -2482,7 +2482,7 @@ pyautogui.click(1891, 19, duration=0.5)
 sleep(1)
 
 # redimensiona stats
-pyautogui.moveTo(1724, 554, 1)
+pyautogui.moveTo(1697, 555, 1)
 sleep(1)
 pyautogui.dragTo(1642, 476, 2, button='left')
 sleep(2)
@@ -2506,13 +2506,13 @@ pyautogui.click(1891, 19, duration=0.5)
 sleep(1)
 
 # redimensiona Legends
-pyautogui.moveTo(1771, 965, 1)
+pyautogui.moveTo(1740, 967, 1)
 sleep(1)
-pyautogui.dragTo(1640, 817, 2, button='left')
+pyautogui.dragTo(1603, 820, 2, button='left')
 sleep(2)
 
 # Alterar Pagina
-pyautogui.doubleClick(1615, 915, duration=0.5)
+pyautogui.doubleClick(1587, 920, duration=0.5)
 pyautogui.write('15', interval=0.1)
 sleep(1)
 pyautogui.click(940, 695, duration=0.5)
@@ -2638,7 +2638,7 @@ pyautogui.click(1891, 19, duration=0.5)
 sleep(1)
 
 # redimensiona stats
-pyautogui.moveTo(1724, 554, 1)
+pyautogui.moveTo(1697, 555, 1)
 sleep(1)
 pyautogui.dragTo(1642, 476, 2, button='left')
 sleep(2)
@@ -2662,13 +2662,13 @@ pyautogui.click(1891, 19, duration=0.5)
 sleep(1)
 
 # redimensiona Legends
-pyautogui.moveTo(1771, 965, 1)
+pyautogui.moveTo(1740, 967, 1)
 sleep(1)
-pyautogui.dragTo(1640, 817, 2, button='left')
+pyautogui.dragTo(1603, 820, 2, button='left')
 sleep(2)
 
 # Alterar Pagina
-pyautogui.doubleClick(1615, 915, duration=0.5)
+pyautogui.doubleClick(1587, 920, duration=0.5)
 pyautogui.write('16', interval=0.1)
 sleep(1)
 pyautogui.click(940, 695, duration=0.5)
@@ -2936,7 +2936,7 @@ pyautogui.click(1891, 19, duration=0.5)
 sleep(1)
 
 # redimensiona stats
-pyautogui.moveTo(1724, 554, 1)
+pyautogui.moveTo(1697, 555, 1)
 sleep(1)
 pyautogui.dragTo(1642, 476, 2, button='left')
 sleep(2)
@@ -2960,13 +2960,13 @@ pyautogui.click(1891, 19, duration=0.5)
 sleep(1)
 
 # redimensiona Legends
-pyautogui.moveTo(1771, 965, 1)
+pyautogui.moveTo(1740, 967, 1)
 sleep(1)
-pyautogui.dragTo(1640, 817, 2, button='left')
+pyautogui.dragTo(1603, 820, 2, button='left')
 sleep(2)
 
 # Alterar Pagina
-pyautogui.doubleClick(1615, 915, duration=0.5)
+pyautogui.doubleClick(1587, 920, duration=0.5)
 pyautogui.write('17', interval=0.1)
 sleep(1)
 pyautogui.click(940, 695, duration=0.5)
@@ -3092,7 +3092,7 @@ pyautogui.click(1891, 19, duration=0.5)
 sleep(1)
 
 # redimensiona stats
-pyautogui.moveTo(1724, 554, 1)
+pyautogui.moveTo(1697, 555, 1)
 sleep(1)
 pyautogui.dragTo(1642, 476, 2, button='left')
 sleep(2)
@@ -3116,13 +3116,13 @@ pyautogui.click(1891, 19, duration=0.5)
 sleep(1)
 
 # redimensiona Legends
-pyautogui.moveTo(1771, 965, 1)
+pyautogui.moveTo(1740, 967, 1)
 sleep(1)
-pyautogui.dragTo(1640, 817, 2, button='left')
+pyautogui.dragTo(1603, 820, 2, button='left')
 sleep(2)
 
 # Alterar Pagina
-pyautogui.doubleClick(1615, 915, duration=0.5)
+pyautogui.doubleClick(1587, 920, duration=0.5)
 pyautogui.write('18', interval=0.1)
 sleep(1)
 pyautogui.click(940, 695, duration=0.5)
@@ -3272,7 +3272,7 @@ pyautogui.click(1891, 19, duration=0.5)
 sleep(1)
 
 # redimensiona stats
-pyautogui.moveTo(1724, 554, 1)
+pyautogui.moveTo(1697, 555, 1)
 sleep(1)
 pyautogui.dragTo(1642, 476, 2, button='left')
 sleep(2)
@@ -3296,13 +3296,13 @@ pyautogui.click(1891, 19, duration=0.5)
 sleep(1)
 
 # redimensiona Legends
-pyautogui.moveTo(1771, 965, 1)
+pyautogui.moveTo(1740, 967, 1)
 sleep(1)
-pyautogui.dragTo(1640, 817, 2, button='left')
+pyautogui.dragTo(1603, 820, 2, button='left')
 sleep(2)
 
 # Alterar Pagina
-pyautogui.doubleClick(1615, 915, duration=0.5)
+pyautogui.doubleClick(1587, 920, duration=0.5)
 pyautogui.write('19', interval=0.1)
 sleep(1)
 pyautogui.click(940, 695, duration=0.5)
@@ -3435,7 +3435,7 @@ pyautogui.click(1891, 19, duration=0.5)
 sleep(1)
 
 # redimensiona stats
-pyautogui.moveTo(1724, 554, 1)
+pyautogui.moveTo(1697, 555, 1)
 sleep(1)
 pyautogui.dragTo(1642, 476, 2, button='left')
 sleep(2)
@@ -3459,13 +3459,13 @@ pyautogui.click(1891, 19, duration=0.5)
 sleep(1)
 
 # redimensiona Legends
-pyautogui.moveTo(1771, 965, 1)
+pyautogui.moveTo(1740, 967, 1)
 sleep(1)
-pyautogui.dragTo(1640, 817, 2, button='left')
+pyautogui.dragTo(1603, 820, 2, button='left')
 sleep(2)
 
 # Alterar Pagina
-pyautogui.doubleClick(1615, 915, duration=0.5)
+pyautogui.doubleClick(1587, 920, duration=0.5)
 pyautogui.write('20', interval=0.1)
 sleep(1)
 pyautogui.click(940, 695, duration=0.5)
@@ -3599,7 +3599,7 @@ pyautogui.click(1891, 19, duration=0.5)
 sleep(1)
 
 # redimensiona stats
-pyautogui.moveTo(1724, 554, 1)
+pyautogui.moveTo(1697, 555, 1)
 sleep(1)
 pyautogui.dragTo(1642, 476, 2, button='left')
 sleep(2)
@@ -3623,13 +3623,13 @@ pyautogui.click(1891, 19, duration=0.5)
 sleep(1)
 
 # redimensiona Legends
-pyautogui.moveTo(1771, 965, 1)
+pyautogui.moveTo(1740, 967, 1)
 sleep(1)
-pyautogui.dragTo(1640, 817, 2, button='left')
+pyautogui.dragTo(1603, 820, 2, button='left')
 sleep(2)
 
 # Alterar Pagina
-pyautogui.doubleClick(1615, 915, duration=0.5)
+pyautogui.doubleClick(1587, 920, duration=0.5)
 pyautogui.write('21', interval=0.1)
 sleep(1)
 pyautogui.click(940, 695, duration=0.5)
@@ -3797,7 +3797,7 @@ pyautogui.click(1891, 19, duration=0.5)
 sleep(1)
 
 # redimensiona stats
-pyautogui.moveTo(1724, 554, 1)
+pyautogui.moveTo(1697, 555, 1)
 sleep(1)
 pyautogui.dragTo(1642, 476, 2, button='left')
 sleep(2)
@@ -3821,13 +3821,13 @@ pyautogui.click(1891, 19, duration=0.5)
 sleep(1)
 
 # redimensiona Legends
-pyautogui.moveTo(1771, 965, 1)
+pyautogui.moveTo(1740, 967, 1)
 sleep(1)
-pyautogui.dragTo(1640, 817, 2, button='left')
+pyautogui.dragTo(1603, 820, 2, button='left')
 sleep(2)
 
 # Alterar Pagina
-pyautogui.doubleClick(1615, 915, duration=0.5)
+pyautogui.doubleClick(1587, 920, duration=0.5)
 pyautogui.write('22', interval=0.1)
 sleep(1)
 pyautogui.click(940, 695, duration=0.5)
@@ -3961,7 +3961,7 @@ pyautogui.click(1891, 19, duration=0.5)
 sleep(1)
 
 # redimensiona stats
-pyautogui.moveTo(1724, 554, 1)
+pyautogui.moveTo(1697, 555, 1)
 sleep(1)
 pyautogui.dragTo(1642, 476, 2, button='left')
 sleep(2)
@@ -3985,13 +3985,13 @@ pyautogui.click(1891, 19, duration=0.5)
 sleep(1)
 
 # redimensiona Legends
-pyautogui.moveTo(1771, 965, 1)
+pyautogui.moveTo(1740, 967, 1)
 sleep(1)
-pyautogui.dragTo(1640, 817, 2, button='left')
+pyautogui.dragTo(1603, 820, 2, button='left')
 sleep(2)
 
 # Alterar Pagina
-pyautogui.doubleClick(1615, 915, duration=0.5)
+pyautogui.doubleClick(1587, 920, duration=0.5)
 pyautogui.write('23', interval=0.1)
 sleep(1)
 pyautogui.click(940, 695, duration=0.5)
@@ -4133,7 +4133,7 @@ pyautogui.click(1891, 19, duration=0.5)
 sleep(1)
 
 # redimensiona stats
-pyautogui.moveTo(1724, 554, 1)
+pyautogui.moveTo(1697, 555, 1)
 sleep(1)
 pyautogui.dragTo(1642, 476, 2, button='left')
 sleep(2)
@@ -4157,13 +4157,13 @@ pyautogui.click(1891, 19, duration=0.5)
 sleep(1)
 
 # redimensiona Legends
-pyautogui.moveTo(1771, 965, 1)
+pyautogui.moveTo(1740, 967, 1)
 sleep(1)
-pyautogui.dragTo(1640, 817, 2, button='left')
+pyautogui.dragTo(1603, 820, 2, button='left')
 sleep(2)
 
 # Alterar Pagina
-pyautogui.doubleClick(1615, 915, duration=0.5)
+pyautogui.doubleClick(1587, 920, duration=0.5)
 pyautogui.write('24', interval=0.1)
 sleep(1)
 pyautogui.click(940, 695, duration=0.5)
@@ -4305,7 +4305,7 @@ pyautogui.click(1891, 19, duration=0.5)
 sleep(1)
 
 # redimensiona stats
-pyautogui.moveTo(1724, 554, 1)
+pyautogui.moveTo(1697, 555, 1)
 sleep(1)
 pyautogui.dragTo(1642, 476, 2, button='left')
 sleep(2)
@@ -4329,13 +4329,13 @@ pyautogui.click(1891, 19, duration=0.5)
 sleep(1)
 
 # redimensiona Legends
-pyautogui.moveTo(1771, 965, 1)
+pyautogui.moveTo(1740, 967, 1)
 sleep(1)
-pyautogui.dragTo(1640, 817, 2, button='left')
+pyautogui.dragTo(1603, 820, 2, button='left')
 sleep(2)
 
 # Alterar Pagina
-pyautogui.doubleClick(1615, 915, duration=0.5)
+pyautogui.doubleClick(1587, 920, duration=0.5)
 pyautogui.write('25', interval=0.1)
 sleep(1)
 pyautogui.click(940, 695, duration=0.5)
@@ -4477,7 +4477,7 @@ pyautogui.click(1891, 19, duration=0.5)
 sleep(1)
 
 # redimensiona stats
-pyautogui.moveTo(1724, 554, 1)
+pyautogui.moveTo(1697, 555, 1)
 sleep(1)
 pyautogui.dragTo(1642, 476, 2, button='left')
 sleep(2)
@@ -4501,13 +4501,13 @@ pyautogui.click(1891, 19, duration=0.5)
 sleep(1)
 
 # redimensiona Legends
-pyautogui.moveTo(1771, 965, 1)
+pyautogui.moveTo(1740, 967, 1)
 sleep(1)
-pyautogui.dragTo(1640, 817, 2, button='left')
+pyautogui.dragTo(1603, 820, 2, button='left')
 sleep(2)
 
 # Alterar Pagina
-pyautogui.doubleClick(1615, 915, duration=0.5)
+pyautogui.doubleClick(1587, 920, duration=0.5)
 pyautogui.write('26', interval=0.1)
 sleep(1)
 pyautogui.click(940, 695, duration=0.5)
@@ -4649,7 +4649,7 @@ pyautogui.click(1891, 19, duration=0.5)
 sleep(1)
 
 # redimensiona stats
-pyautogui.moveTo(1724, 554, 1)
+pyautogui.moveTo(1697, 555, 1)
 sleep(1)
 pyautogui.dragTo(1642, 476, 2, button='left')
 sleep(2)
@@ -4673,13 +4673,13 @@ pyautogui.click(1891, 19, duration=0.5)
 sleep(1)
 
 # redimensiona Legends
-pyautogui.moveTo(1771, 965, 1)
+pyautogui.moveTo(1740, 967, 1)
 sleep(1)
-pyautogui.dragTo(1640, 817, 2, button='left')
+pyautogui.dragTo(1603, 820, 2, button='left')
 sleep(2)
 
 # Alterar Pagina
-pyautogui.doubleClick(1615, 915, duration=0.5)
+pyautogui.doubleClick(1587, 920, duration=0.5)
 pyautogui.write('27', interval=0.1)
 sleep(1)
 pyautogui.click(940, 695, duration=0.5)
@@ -4829,7 +4829,7 @@ pyautogui.click(1891, 19, duration=0.5)
 sleep(1)
 
 # redimensiona stats
-pyautogui.moveTo(1724, 554, 1)
+pyautogui.moveTo(1697, 555, 1)
 sleep(1)
 pyautogui.dragTo(1642, 476, 2, button='left')
 sleep(2)
@@ -4853,13 +4853,13 @@ pyautogui.click(1891, 19, duration=0.5)
 sleep(1)
 
 # redimensiona Legends
-pyautogui.moveTo(1771, 965, 1)
+pyautogui.moveTo(1740, 967, 1)
 sleep(1)
-pyautogui.dragTo(1640, 817, 2, button='left')
+pyautogui.dragTo(1603, 820, 2, button='left')
 sleep(2)
 
 # Alterar Pagina
-pyautogui.doubleClick(1615, 915, duration=0.5)
+pyautogui.doubleClick(1587, 920, duration=0.5)
 pyautogui.write('28', interval=0.1)
 sleep(1)
 pyautogui.click(940, 695, duration=0.5)
@@ -4985,7 +4985,7 @@ pyautogui.click(1891, 19, duration=0.5)
 sleep(1)
 
 # redimensiona stats
-pyautogui.moveTo(1724, 554, 1)
+pyautogui.moveTo(1697, 555, 1)
 sleep(1)
 pyautogui.dragTo(1642, 476, 2, button='left')
 sleep(2)
@@ -5009,13 +5009,13 @@ pyautogui.click(1891, 19, duration=0.5)
 sleep(1)
 
 # redimensiona Legends
-pyautogui.moveTo(1771, 965, 1)
+pyautogui.moveTo(1740, 967, 1)
 sleep(1)
-pyautogui.dragTo(1640, 817, 2, button='left')
+pyautogui.dragTo(1603, 820, 2, button='left')
 sleep(2)
 
 # Alterar Pagina
-pyautogui.doubleClick(1615, 915, duration=0.5)
+pyautogui.doubleClick(1587, 920, duration=0.5)
 pyautogui.write('29', interval=0.1)
 sleep(1)
 pyautogui.click(940, 695, duration=0.5)
@@ -5149,7 +5149,7 @@ pyautogui.click(1891, 19, duration=0.5)
 sleep(1)
 
 # redimensiona stats
-pyautogui.moveTo(1724, 554, 1)
+pyautogui.moveTo(1697, 555, 1)
 sleep(1)
 pyautogui.dragTo(1642, 476, 2, button='left')
 sleep(2)
@@ -5173,13 +5173,13 @@ pyautogui.click(1891, 19, duration=0.5)
 sleep(1)
 
 # redimensiona Legends
-pyautogui.moveTo(1771, 965, 1)
+pyautogui.moveTo(1740, 967, 1)
 sleep(1)
-pyautogui.dragTo(1640, 817, 2, button='left')
+pyautogui.dragTo(1603, 820, 2, button='left')
 sleep(2)
 
 # Alterar Pagina
-pyautogui.doubleClick(1615, 915, duration=0.5)
+pyautogui.doubleClick(1587, 920, duration=0.5)
 pyautogui.write('30', interval=0.1)
 sleep(1)
 pyautogui.click(940, 695, duration=0.5)
@@ -5305,7 +5305,7 @@ pyautogui.click(1891, 19, duration=0.5)
 sleep(1)
 
 # redimensiona stats
-pyautogui.moveTo(1724, 554, 1)
+pyautogui.moveTo(1697, 555, 1)
 sleep(1)
 pyautogui.dragTo(1642, 476, 2, button='left')
 sleep(2)
@@ -5329,13 +5329,13 @@ pyautogui.click(1891, 19, duration=0.5)
 sleep(1)
 
 # redimensiona Legends
-pyautogui.moveTo(1771, 965, 1)
+pyautogui.moveTo(1740, 967, 1)
 sleep(1)
-pyautogui.dragTo(1640, 817, 2, button='left')
+pyautogui.dragTo(1603, 820, 2, button='left')
 sleep(2)
 
 # Alterar Pagina
-pyautogui.doubleClick(1615, 915, duration=0.5)
+pyautogui.doubleClick(1587, 920, duration=0.5)
 pyautogui.write('31', interval=0.1)
 sleep(1)
 pyautogui.click(940, 695, duration=0.5)
@@ -5461,7 +5461,7 @@ pyautogui.click(1891, 19, duration=0.5)
 sleep(1)
 
 # redimensiona stats
-pyautogui.moveTo(1724, 554, 1)
+pyautogui.moveTo(1697, 555, 1)
 sleep(1)
 pyautogui.dragTo(1642, 476, 2, button='left')
 sleep(2)
@@ -5485,13 +5485,13 @@ pyautogui.click(1891, 19, duration=0.5)
 sleep(1)
 
 # redimensiona Legends
-pyautogui.moveTo(1771, 965, 1)
+pyautogui.moveTo(1740, 967, 1)
 sleep(1)
-pyautogui.dragTo(1640, 817, 2, button='left')
+pyautogui.dragTo(1603, 820, 2, button='left')
 sleep(2)
 
 # Alterar Pagina
-pyautogui.doubleClick(1615, 915, duration=0.5)
+pyautogui.doubleClick(1587, 920, duration=0.5)
 pyautogui.write('32', interval=0.1)
 sleep(1)
 pyautogui.click(940, 695, duration=0.5)
@@ -5641,7 +5641,7 @@ pyautogui.click(1891, 19, duration=0.5)
 sleep(1)
 
 # redimensiona stats
-pyautogui.moveTo(1724, 554, 1)
+pyautogui.moveTo(1697, 555, 1)
 sleep(1)
 pyautogui.dragTo(1642, 476, 2, button='left')
 sleep(2)
@@ -5665,13 +5665,13 @@ pyautogui.click(1891, 19, duration=0.5)
 sleep(1)
 
 # redimensiona Legends
-pyautogui.moveTo(1771, 965, 1)
+pyautogui.moveTo(1740, 967, 1)
 sleep(1)
-pyautogui.dragTo(1640, 817, 2, button='left')
+pyautogui.dragTo(1603, 820, 2, button='left')
 sleep(2)
 
 # Alterar Pagina
-pyautogui.doubleClick(1615, 915, duration=0.5)
+pyautogui.doubleClick(1587, 920, duration=0.5)
 pyautogui.write('33', interval=0.1)
 sleep(1)
 pyautogui.click(940, 695, duration=0.5)

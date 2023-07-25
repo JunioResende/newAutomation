@@ -1,16 +1,21 @@
 import os
 from PyPDF2 import PdfWriter
 
+clientSelect = input('Qual o Cliente? ')
+yearSelect = input('Em que ano? ')
+farmSelect = input('Qual a Fazenda? ')
+outputName = f'Livreto_{farmSelect}.pdf'
+
 merger = PdfWriter()
 
-lista_arquivos = os.listdir(
-    'D://Cloud//PROGEO//Clientes//Kassio Vieira de Carvalho//2023//Fazenda Matrincha//Processado//Mapas')
-print(lista_arquivos)
+pdfFiles = os.listdir(
+    f'D://Cloud//PROGEO//Clientes//{clientSelect}//{yearSelect}//{farmSelect}//Processado//Mapas')
+print(pdfFiles)
 
-for arquivo in lista_arquivos:
-    if '.pdf' in arquivo:
-        merger.append(
-            f'D://Cloud//PROGEO//Clientes//Kassio Vieira de Carvalho//2023//Fazenda Matrincha//Processado//Mapas//{arquivo}')
+for pdfs in pdfFiles:
+    merger.append(
+        f'D://Cloud//PROGEO//Clientes//{clientSelect}//{yearSelect}//{farmSelect}//Processado//Mapas//{pdfs}')
 
-merger.write('D://Cloud//PROGEO//Clientes//Kassio Vieira de Carvalho//2023//Fazenda Matrincha//Processado//Mapas//Livreto_Matrincha.pdf')
+merger.write(
+    f'D://Cloud//PROGEO//Clientes//{clientSelect}//{yearSelect}//{farmSelect}//Processado//Mapas//{outputName}')
 merger.close()

@@ -3,7 +3,7 @@ import arcpy
 
 # 3_Argila
 Input = "3_Argila_poly"
-Output = "D:\\Cloud\\PROGEO\\Clientes\\Kassio Vieira de Carvalho\\2022\\Fazenda Matrincha\\Processado\\Shapefiles\\legends\\dissolvedLegends\\3_Argila.shp"
+Output = "D:\\Cloud\\PROGEO\\Clientes\\Uilson\\2023\\Fazenda Prata do Luar 2\\Processado\\Shapefiles\\legends\\dissolvedLegends\\3_Argila.shp"
 Atribute_Field_Added = Output
 Field_Area_Added = Atribute_Field_Added
 Field_Percent_Added = Field_Area_Added
@@ -29,13 +29,13 @@ arcpy.CalculateField_management(
     Field_Atribute_Calculated, "area", "!shape.area!/10000", "PYTHON_9.3", "")
 
 arcpy.CalculateField_management(
-    Field_Area_Calculated, "percent", "([area]*100)/371.798", "VB", "")
+    Field_Area_Calculated, "percent", "([area]*100)/182.4417", "VB", "")
 
 
 # 4_Areia
 
 Input = "4_Areia_poly"
-Output = "D:\\Cloud\\PROGEO\\Clientes\\Kassio Vieira de Carvalho\\2022\\Fazenda Matrincha\\Processado\\Shapefiles\\legends\\dissolvedLegends\\4_Areia.shp"
+Output = "D:\\Cloud\\PROGEO\\Clientes\\Uilson\\2023\\Fazenda Prata do Luar 2\\Processado\\Shapefiles\\legends\\dissolvedLegends\\4_Areia.shp"
 Atribute_Field_Added = Output
 Field_Area_Added = Atribute_Field_Added
 Field_Percent_Added = Field_Area_Added
@@ -61,13 +61,13 @@ arcpy.CalculateField_management(
     Field_Atribute_Calculated, "area", "!shape.area!/10000", "PYTHON_9.3", "")
 
 arcpy.CalculateField_management(
-    Field_Area_Calculated, "percent", "([area]*100)/371.798", "VB", "")
+    Field_Area_Calculated, "percent", "([area]*100)/182.4417", "VB", "")
 
 
 # 5_Silte
 
 Input = "5_Silte_poly"
-Output = "D:\\Cloud\\PROGEO\\Clientes\\Kassio Vieira de Carvalho\\2022\\Fazenda Matrincha\\Processado\\Shapefiles\\legends\\dissolvedLegends\\5_Silte.shp"
+Output = "D:\\Cloud\\PROGEO\\Clientes\\Uilson\\2023\\Fazenda Prata do Luar 2\\Processado\\Shapefiles\\legends\\dissolvedLegends\\5_Silte.shp"
 Atribute_Field_Added = Output
 Field_Area_Added = Atribute_Field_Added
 Field_Percent_Added = Field_Area_Added
@@ -93,13 +93,13 @@ arcpy.CalculateField_management(
     Field_Atribute_Calculated, "area", "!shape.area!/10000", "PYTHON_9.3", "")
 
 arcpy.CalculateField_management(
-    Field_Area_Calculated, "percent", "([area]*100)/371.798", "VB", "")
+    Field_Area_Calculated, "percent", "([area]*100)/182.4417", "VB", "")
 
 
 # 6_Materia_Organica
 
 Input = "6_Materia_Organica_poly"
-Output = "D:\\Cloud\\PROGEO\\Clientes\\Kassio Vieira de Carvalho\\2022\\Fazenda Matrincha\\Processado\\Shapefiles\\legends\\dissolvedLegends\\6_Materia_Organica.shp"
+Output = "D:\\Cloud\\PROGEO\\Clientes\\Uilson\\2023\\Fazenda Prata do Luar 2\\Processado\\Shapefiles\\legends\\dissolvedLegends\\6_Materia_Organica.shp"
 Atribute_Field_Added = Output
 Field_Area_Added = Atribute_Field_Added
 Field_Percent_Added = Field_Area_Added
@@ -125,13 +125,13 @@ arcpy.CalculateField_management(
     Field_Atribute_Calculated, "area", "!shape.area!/10000", "PYTHON_9.3", "")
 
 arcpy.CalculateField_management(
-    Field_Area_Calculated, "percent", "([area]*100)/371.798", "VB", "")
+    Field_Area_Calculated, "percent", "([area]*100)/182.4417", "VB", "")
 
 
 # 7_Carbono_Organico
 
 Input = "7_Carbono_Organico_poly"
-Output = "D:\\Cloud\\PROGEO\\Clientes\\Kassio Vieira de Carvalho\\2022\\Fazenda Matrincha\\Processado\\Shapefiles\\legends\\dissolvedLegends\\7_Carbono_Organico.shp"
+Output = "D:\\Cloud\\PROGEO\\Clientes\\Uilson\\2023\\Fazenda Prata do Luar 2\\Processado\\Shapefiles\\legends\\dissolvedLegends\\7_Carbono_Organico.shp"
 Atribute_Field_Added = Output
 Field_Area_Added = Atribute_Field_Added
 Field_Percent_Added = Field_Area_Added
@@ -157,13 +157,13 @@ arcpy.CalculateField_management(
     Field_Atribute_Calculated, "area", "!shape.area!/10000", "PYTHON_9.3", "")
 
 arcpy.CalculateField_management(
-    Field_Area_Calculated, "percent", "([area]*100)/371.798", "VB", "")
+    Field_Area_Calculated, "percent", "([area]*100)/182.4417", "VB", "")
 
 
 # 8_CTC_Total
 
 Input = "8_CTC_Total_poly"
-Output = "D:\\Cloud\\PROGEO\\Clientes\\Kassio Vieira de Carvalho\\2022\\Fazenda Matrincha\\Processado\\Shapefiles\\legends\\dissolvedLegends\\8_CTC_Total.shp"
+Output = "D:\\Cloud\\PROGEO\\Clientes\\Uilson\\2023\\Fazenda Prata do Luar 2\\Processado\\Shapefiles\\legends\\dissolvedLegends\\8_CTC_Total.shp"
 Atribute_Field_Added = Output
 Field_Area_Added = Atribute_Field_Added
 Field_Percent_Added = Field_Area_Added
@@ -189,13 +189,13 @@ arcpy.CalculateField_management(
     Field_Atribute_Calculated, "area", "!shape.area!/10000", "PYTHON_9.3", "")
 
 arcpy.CalculateField_management(
-    Field_Area_Calculated, "percent", "([area]*100)/371.798", "VB", "")
+    Field_Area_Calculated, "percent", "([area]*100)/182.4417", "VB", "")
 
 
 # 9_pH_Cloreto_de_Calcio
 
 Input = "9_pH_Cloreto_de_Calcio_poly"
-Output = "D:\\Cloud\\PROGEO\\Clientes\\Kassio Vieira de Carvalho\\2022\\Fazenda Matrincha\\Processado\\Shapefiles\\legends\\dissolvedLegends\\9_pH_Cloreto_de_Calcio.shp"
+Output = "D:\\Cloud\\PROGEO\\Clientes\\Uilson\\2023\\Fazenda Prata do Luar 2\\Processado\\Shapefiles\\legends\\dissolvedLegends\\9_pH_Cloreto_de_Calcio.shp"
 Atribute_Field_Added = Output
 Field_Area_Added = Atribute_Field_Added
 Field_Percent_Added = Field_Area_Added
@@ -221,13 +221,13 @@ arcpy.CalculateField_management(
     Field_Atribute_Calculated, "area", "!shape.area!/10000", "PYTHON_9.3", "")
 
 arcpy.CalculateField_management(
-    Field_Area_Calculated, "percent", "([area]*100)/371.798", "VB", "")
+    Field_Area_Calculated, "percent", "([area]*100)/182.4417", "VB", "")
 
 
 # 10_Saturacao_de_Bases
 
 Input = "10_Saturacao_de_Bases_poly"
-Output = "D:\\Cloud\\PROGEO\\Clientes\\Kassio Vieira de Carvalho\\2022\\Fazenda Matrincha\\Processado\\Shapefiles\\legends\\dissolvedLegends\\10_Saturacao_de_Bases.shp"
+Output = "D:\\Cloud\\PROGEO\\Clientes\\Uilson\\2023\\Fazenda Prata do Luar 2\\Processado\\Shapefiles\\legends\\dissolvedLegends\\10_Saturacao_de_Bases.shp"
 Atribute_Field_Added = Output
 Field_Area_Added = Atribute_Field_Added
 Field_Percent_Added = Field_Area_Added
@@ -254,13 +254,13 @@ arcpy.CalculateField_management(
     Field_Atribute_Calculated, "area", "!shape.area!/10000", "PYTHON_9.3", "")
 
 arcpy.CalculateField_management(
-    Field_Area_Calculated, "percent", "([area]*100)/371.798", "VB", "")
+    Field_Area_Calculated, "percent", "([area]*100)/182.4417", "VB", "")
 
 
 # 11_Calcio
 
 Input = "11_Calcio_poly"
-Output = "D:\\Cloud\\PROGEO\\Clientes\\Kassio Vieira de Carvalho\\2022\\Fazenda Matrincha\\Processado\\Shapefiles\\legends\\dissolvedLegends\\11_Calcio.shp"
+Output = "D:\\Cloud\\PROGEO\\Clientes\\Uilson\\2023\\Fazenda Prata do Luar 2\\Processado\\Shapefiles\\legends\\dissolvedLegends\\11_Calcio.shp"
 Atribute_Field_Added = Output
 Field_Area_Added = Atribute_Field_Added
 Field_Percent_Added = Field_Area_Added
@@ -287,13 +287,13 @@ arcpy.CalculateField_management(
     Field_Atribute_Calculated, "area", "!shape.area!/10000", "PYTHON_9.3", "")
 
 arcpy.CalculateField_management(
-    Field_Area_Calculated, "percent", "([area]*100)/371.798", "VB", "")
+    Field_Area_Calculated, "percent", "([area]*100)/182.4417", "VB", "")
 
 
 # 12_Magnesio
 
 Input = "12_Magnesio_poly"
-Output = "D:\\Cloud\\PROGEO\\Clientes\\Kassio Vieira de Carvalho\\2022\\Fazenda Matrincha\\Processado\\Shapefiles\\legends\\dissolvedLegends\\12_Magnesio.shp"
+Output = "D:\\Cloud\\PROGEO\\Clientes\\Uilson\\2023\\Fazenda Prata do Luar 2\\Processado\\Shapefiles\\legends\\dissolvedLegends\\12_Magnesio.shp"
 Atribute_Field_Added = Output
 Field_Area_Added = Atribute_Field_Added
 Field_Percent_Added = Field_Area_Added
@@ -320,13 +320,13 @@ arcpy.CalculateField_management(
     Field_Atribute_Calculated, "area", "!shape.area!/10000", "PYTHON_9.3", "")
 
 arcpy.CalculateField_management(
-    Field_Area_Calculated, "percent", "([area]*100)/371.798", "VB", "")
+    Field_Area_Calculated, "percent", "([area]*100)/182.4417", "VB", "")
 
 
 # 13_Calcio_Mais_Magnesio
 
 Input = "13_Calcio_Mais_Magnesio_poly"
-Output = "D:\\Cloud\\PROGEO\\Clientes\\Kassio Vieira de Carvalho\\2022\\Fazenda Matrincha\\Processado\\Shapefiles\\legends\\dissolvedLegends\\13_Calcio_Mais_Magnesio.shp"
+Output = "D:\\Cloud\\PROGEO\\Clientes\\Uilson\\2023\\Fazenda Prata do Luar 2\\Processado\\Shapefiles\\legends\\dissolvedLegends\\13_Calcio_Mais_Magnesio.shp"
 Atribute_Field_Added = Output
 Field_Area_Added = Atribute_Field_Added
 Field_Percent_Added = Field_Area_Added
@@ -353,13 +353,13 @@ arcpy.CalculateField_management(
     Field_Atribute_Calculated, "area", "!shape.area!/10000", "PYTHON_9.3", "")
 
 arcpy.CalculateField_management(
-    Field_Area_Calculated, "percent", "([area]*100)/371.798", "VB", "")
+    Field_Area_Calculated, "percent", "([area]*100)/182.4417", "VB", "")
 
 
 # 14_Aluminio
 
 Input = "14_Aluminio_poly"
-Output = "D:\\Cloud\\PROGEO\\Clientes\\Kassio Vieira de Carvalho\\2022\\Fazenda Matrincha\\Processado\\Shapefiles\\legends\\dissolvedLegends\\14_Aluminio.shp"
+Output = "D:\\Cloud\\PROGEO\\Clientes\\Uilson\\2023\\Fazenda Prata do Luar 2\\Processado\\Shapefiles\\legends\\dissolvedLegends\\14_Aluminio.shp"
 Atribute_Field_Added = Output
 Field_Area_Added = Atribute_Field_Added
 Field_Percent_Added = Field_Area_Added
@@ -386,13 +386,13 @@ arcpy.CalculateField_management(
     Field_Atribute_Calculated, "area", "!shape.area!/10000", "PYTHON_9.3", "")
 
 arcpy.CalculateField_management(
-    Field_Area_Calculated, "percent", "([area]*100)/371.798", "VB", "")
+    Field_Area_Calculated, "percent", "([area]*100)/182.4417", "VB", "")
 
 
 # 15_Hidrogenio_Mais_Aluminio
 
 Input = "15_Hidrogenio_Mais_Aluminio_poly"
-Output = "D:\\Cloud\\PROGEO\\Clientes\\Kassio Vieira de Carvalho\\2022\\Fazenda Matrincha\\Processado\\Shapefiles\\legends\\dissolvedLegends\\15_Hidrogenio_Mais_Aluminio.shp"
+Output = "D:\\Cloud\\PROGEO\\Clientes\\Uilson\\2023\\Fazenda Prata do Luar 2\\Processado\\Shapefiles\\legends\\dissolvedLegends\\15_Hidrogenio_Mais_Aluminio.shp"
 Atribute_Field_Added = Output
 Field_Area_Added = Atribute_Field_Added
 Field_Percent_Added = Field_Area_Added
@@ -419,13 +419,13 @@ arcpy.CalculateField_management(
     Field_Atribute_Calculated, "area", "!shape.area!/10000", "PYTHON_9.3", "")
 
 arcpy.CalculateField_management(
-    Field_Area_Calculated, "percent", "([area]*100)/371.798", "VB", "")
+    Field_Area_Calculated, "percent", "([area]*100)/182.4417", "VB", "")
 
 
 # 16_Saturacao_por_Aluminio
 
 Input = "16_Saturacao_por_Aluminio_poly"
-Output = "D:\\Cloud\\PROGEO\\Clientes\\Kassio Vieira de Carvalho\\2022\\Fazenda Matrincha\\Processado\\Shapefiles\\legends\\dissolvedLegends\\16_Saturacao_por_Aluminio.shp"
+Output = "D:\\Cloud\\PROGEO\\Clientes\\Uilson\\2023\\Fazenda Prata do Luar 2\\Processado\\Shapefiles\\legends\\dissolvedLegends\\16_Saturacao_por_Aluminio.shp"
 Atribute_Field_Added = Output
 Field_Area_Added = Atribute_Field_Added
 Field_Percent_Added = Field_Area_Added
@@ -452,13 +452,13 @@ arcpy.CalculateField_management(
     Field_Atribute_Calculated, "area", "!shape.area!/10000", "PYTHON_9.3", "")
 
 arcpy.CalculateField_management(
-    Field_Area_Calculated, "percent", "([area]*100)/371.798", "VB", "")
+    Field_Area_Calculated, "percent", "([area]*100)/182.4417", "VB", "")
 
 
 # 17_Potassio_ppm
 
 Input = "17_Potassio_ppm_poly"
-Output = "D:\\Cloud\\PROGEO\\Clientes\\Kassio Vieira de Carvalho\\2022\\Fazenda Matrincha\\Processado\\Shapefiles\\legends\\dissolvedLegends\\17_Potassio_ppm.shp"
+Output = "D:\\Cloud\\PROGEO\\Clientes\\Uilson\\2023\\Fazenda Prata do Luar 2\\Processado\\Shapefiles\\legends\\dissolvedLegends\\17_Potassio_ppm.shp"
 Atribute_Field_Added = Output
 Field_Area_Added = Atribute_Field_Added
 Field_Percent_Added = Field_Area_Added
@@ -485,13 +485,13 @@ arcpy.CalculateField_management(
     Field_Atribute_Calculated, "area", "!shape.area!/10000", "PYTHON_9.3", "")
 
 arcpy.CalculateField_management(
-    Field_Area_Calculated, "percent", "([area]*100)/371.798", "VB", "")
+    Field_Area_Calculated, "percent", "([area]*100)/182.4417", "VB", "")
 
 
 # 18_Fosforo_Mehlich
 
 Input = "18_Fosforo_Mehlich_poly"
-Output = "D:\\Cloud\\PROGEO\\Clientes\\Kassio Vieira de Carvalho\\2022\\Fazenda Matrincha\\Processado\\Shapefiles\\legends\\dissolvedLegends\\18_Fosforo_Mehlich.shp"
+Output = "D:\\Cloud\\PROGEO\\Clientes\\Uilson\\2023\\Fazenda Prata do Luar 2\\Processado\\Shapefiles\\legends\\dissolvedLegends\\18_Fosforo_Mehlich.shp"
 Atribute_Field_Added = Output
 Field_Area_Added = Atribute_Field_Added
 Field_Percent_Added = Field_Area_Added
@@ -518,13 +518,13 @@ arcpy.CalculateField_management(
     Field_Atribute_Calculated, "area", "!shape.area!/10000", "PYTHON_9.3", "")
 
 arcpy.CalculateField_management(
-    Field_Area_Calculated, "percent", "([area]*100)/371.798", "VB", "")
+    Field_Area_Calculated, "percent", "([area]*100)/182.4417", "VB", "")
 
 
 # 19_Potassio
 
 Input = "19_Potassio_poly"
-Output = "D:\\Cloud\\PROGEO\\Clientes\\Kassio Vieira de Carvalho\\2022\\Fazenda Matrincha\\Processado\\Shapefiles\\legends\\dissolvedLegends\\19_Potassio.shp"
+Output = "D:\\Cloud\\PROGEO\\Clientes\\Uilson\\2023\\Fazenda Prata do Luar 2\\Processado\\Shapefiles\\legends\\dissolvedLegends\\19_Potassio.shp"
 Atribute_Field_Added = Output
 Field_Area_Added = Atribute_Field_Added
 Field_Percent_Added = Field_Area_Added
@@ -551,13 +551,13 @@ arcpy.CalculateField_management(
     Field_Atribute_Calculated, "area", "!shape.area!/10000", "PYTHON_9.3", "")
 
 arcpy.CalculateField_management(
-    Field_Area_Calculated, "percent", "([area]*100)/371.798", "VB", "")
+    Field_Area_Calculated, "percent", "([area]*100)/182.4417", "VB", "")
 
 
 # 20_Enxofre
 
 Input = "20_Enxofre_poly"
-Output = "D:\\Cloud\\PROGEO\\Clientes\\Kassio Vieira de Carvalho\\2022\\Fazenda Matrincha\\Processado\\Shapefiles\\legends\\dissolvedLegends\\20_Enxofre.shp"
+Output = "D:\\Cloud\\PROGEO\\Clientes\\Uilson\\2023\\Fazenda Prata do Luar 2\\Processado\\Shapefiles\\legends\\dissolvedLegends\\20_Enxofre.shp"
 Atribute_Field_Added = Output
 Field_Area_Added = Atribute_Field_Added
 Field_Percent_Added = Field_Area_Added
@@ -584,13 +584,13 @@ arcpy.CalculateField_management(
     Field_Atribute_Calculated, "area", "!shape.area!/10000", "PYTHON_9.3", "")
 
 arcpy.CalculateField_management(
-    Field_Area_Calculated, "percent", "([area]*100)/371.798", "VB", "")
+    Field_Area_Calculated, "percent", "([area]*100)/182.4417", "VB", "")
 
 
 # 21_Boro
 
 Input = "21_Boro_poly"
-Output = "D:\\Cloud\\PROGEO\\Clientes\\Kassio Vieira de Carvalho\\2022\\Fazenda Matrincha\\Processado\\Shapefiles\\legends\\dissolvedLegends\\21_Boro.shp"
+Output = "D:\\Cloud\\PROGEO\\Clientes\\Uilson\\2023\\Fazenda Prata do Luar 2\\Processado\\Shapefiles\\legends\\dissolvedLegends\\21_Boro.shp"
 Atribute_Field_Added = Output
 Field_Area_Added = Atribute_Field_Added
 Field_Percent_Added = Field_Area_Added
@@ -617,13 +617,13 @@ arcpy.CalculateField_management(
     Field_Atribute_Calculated, "area", "!shape.area!/10000", "PYTHON_9.3", "")
 
 arcpy.CalculateField_management(
-    Field_Area_Calculated, "percent", "([area]*100)/371.798", "VB", "")
+    Field_Area_Calculated, "percent", "([area]*100)/182.4417", "VB", "")
 
 
 # 22_Calcio_CTC
 
 Input = "22_Calcio_CTC_poly"
-Output = "D:\\Cloud\\PROGEO\\Clientes\\Kassio Vieira de Carvalho\\2022\\Fazenda Matrincha\\Processado\\Shapefiles\\legends\\dissolvedLegends\\22_Calcio_CTC.shp"
+Output = "D:\\Cloud\\PROGEO\\Clientes\\Uilson\\2023\\Fazenda Prata do Luar 2\\Processado\\Shapefiles\\legends\\dissolvedLegends\\22_Calcio_CTC.shp"
 Atribute_Field_Added = Output
 Field_Area_Added = Atribute_Field_Added
 Field_Percent_Added = Field_Area_Added
@@ -650,13 +650,13 @@ arcpy.CalculateField_management(
     Field_Atribute_Calculated, "area", "!shape.area!/10000", "PYTHON_9.3", "")
 
 arcpy.CalculateField_management(
-    Field_Area_Calculated, "percent", "([area]*100)/371.798", "VB", "")
+    Field_Area_Calculated, "percent", "([area]*100)/182.4417", "VB", "")
 
 
 # 23_Magnesio_CTC
 
 Input = "23_Magnesio_CTC_poly"
-Output = "D:\\Cloud\\PROGEO\\Clientes\\Kassio Vieira de Carvalho\\2022\\Fazenda Matrincha\\Processado\\Shapefiles\\legends\\dissolvedLegends\\23_Magnesio_CTC.shp"
+Output = "D:\\Cloud\\PROGEO\\Clientes\\Uilson\\2023\\Fazenda Prata do Luar 2\\Processado\\Shapefiles\\legends\\dissolvedLegends\\23_Magnesio_CTC.shp"
 Atribute_Field_Added = Output
 Field_Area_Added = Atribute_Field_Added
 Field_Percent_Added = Field_Area_Added
@@ -683,13 +683,13 @@ arcpy.CalculateField_management(
     Field_Atribute_Calculated, "area", "!shape.area!/10000", "PYTHON_9.3", "")
 
 arcpy.CalculateField_management(
-    Field_Area_Calculated, "percent", "([area]*100)/371.798", "VB", "")
+    Field_Area_Calculated, "percent", "([area]*100)/182.4417", "VB", "")
 
 
 # 24_Potassio_CTC
 
 Input = "24_Potassio_CTC_poly"
-Output = "D:\\Cloud\\PROGEO\\Clientes\\Kassio Vieira de Carvalho\\2022\\Fazenda Matrincha\\Processado\\Shapefiles\\legends\\dissolvedLegends\\24_Potassio_CTC.shp"
+Output = "D:\\Cloud\\PROGEO\\Clientes\\Uilson\\2023\\Fazenda Prata do Luar 2\\Processado\\Shapefiles\\legends\\dissolvedLegends\\24_Potassio_CTC.shp"
 Atribute_Field_Added = Output
 Field_Area_Added = Atribute_Field_Added
 Field_Percent_Added = Field_Area_Added
@@ -716,13 +716,13 @@ arcpy.CalculateField_management(
     Field_Atribute_Calculated, "area", "!shape.area!/10000", "PYTHON_9.3", "")
 
 arcpy.CalculateField_management(
-    Field_Area_Calculated, "percent", "([area]*100)/371.798", "VB", "")
+    Field_Area_Calculated, "percent", "([area]*100)/182.4417", "VB", "")
 
 
 # 25_Hidrogenio_Mais_Aluminio_CTC
 
 Input = "25_Hidrogenio_Mais_Aluminio_CTC_poly"
-Output = "D:\\Cloud\\PROGEO\\Clientes\\Kassio Vieira de Carvalho\\2022\\Fazenda Matrincha\\Processado\\Shapefiles\\legends\\dissolvedLegends\\25_Hidrogenio_Mais_Aluminio_CTC.shp"
+Output = "D:\\Cloud\\PROGEO\\Clientes\\Uilson\\2023\\Fazenda Prata do Luar 2\\Processado\\Shapefiles\\legends\\dissolvedLegends\\25_Hidrogenio_Mais_Aluminio_CTC.shp"
 Atribute_Field_Added = Output
 Field_Area_Added = Atribute_Field_Added
 Field_Percent_Added = Field_Area_Added
@@ -749,13 +749,13 @@ arcpy.CalculateField_management(
     Field_Atribute_Calculated, "area", "!shape.area!/10000", "PYTHON_9.3", "")
 
 arcpy.CalculateField_management(
-    Field_Area_Calculated, "percent", "([area]*100)/371.798", "VB", "")
+    Field_Area_Calculated, "percent", "([area]*100)/182.4417", "VB", "")
 
 
 # 26_Relacao_Calcio_Magnesio
 
 Input = "26_Relacao_Calcio_Magnesio_poly"
-Output = "D:\\Cloud\\PROGEO\\Clientes\\Kassio Vieira de Carvalho\\2022\\Fazenda Matrincha\\Processado\\Shapefiles\\legends\\dissolvedLegends\\26_Relacao_Calcio_Magnesio.shp"
+Output = "D:\\Cloud\\PROGEO\\Clientes\\Uilson\\2023\\Fazenda Prata do Luar 2\\Processado\\Shapefiles\\legends\\dissolvedLegends\\26_Relacao_Calcio_Magnesio.shp"
 Atribute_Field_Added = Output
 Field_Area_Added = Atribute_Field_Added
 Field_Percent_Added = Field_Area_Added
@@ -782,13 +782,13 @@ arcpy.CalculateField_management(
     Field_Atribute_Calculated, "area", "!shape.area!/10000", "PYTHON_9.3", "")
 
 arcpy.CalculateField_management(
-    Field_Area_Calculated, "percent", "([area]*100)/371.798", "VB", "")
+    Field_Area_Calculated, "percent", "([area]*100)/182.4417", "VB", "")
 
 
 # 27_Relacao_Calcio_Potassio
 
 Input = "27_Relacao_Calcio_Potassio_poly"
-Output = "D:\\Cloud\\PROGEO\\Clientes\\Kassio Vieira de Carvalho\\2022\\Fazenda Matrincha\\Processado\\Shapefiles\\legends\\dissolvedLegends\\27_Relacao_Calcio_Potassio.shp"
+Output = "D:\\Cloud\\PROGEO\\Clientes\\Uilson\\2023\\Fazenda Prata do Luar 2\\Processado\\Shapefiles\\legends\\dissolvedLegends\\27_Relacao_Calcio_Potassio.shp"
 Atribute_Field_Added = Output
 Field_Area_Added = Atribute_Field_Added
 Field_Percent_Added = Field_Area_Added
@@ -815,13 +815,13 @@ arcpy.CalculateField_management(
     Field_Atribute_Calculated, "area", "!shape.area!/10000", "PYTHON_9.3", "")
 
 arcpy.CalculateField_management(
-    Field_Area_Calculated, "percent", "([area]*100)/371.798", "VB", "")
+    Field_Area_Calculated, "percent", "([area]*100)/182.4417", "VB", "")
 
 
 # 28_Relacao_Magnesio_Potassio
 
 Input = "28_Relacao_Magnesio_Potassio_poly"
-Output = "D:\\Cloud\\PROGEO\\Clientes\\Kassio Vieira de Carvalho\\2022\\Fazenda Matrincha\\Processado\\Shapefiles\\legends\\dissolvedLegends\\28_Relacao_Magnesio_Potassio.shp"
+Output = "D:\\Cloud\\PROGEO\\Clientes\\Uilson\\2023\\Fazenda Prata do Luar 2\\Processado\\Shapefiles\\legends\\dissolvedLegends\\28_Relacao_Magnesio_Potassio.shp"
 Atribute_Field_Added = Output
 Field_Area_Added = Atribute_Field_Added
 Field_Percent_Added = Field_Area_Added
@@ -848,13 +848,13 @@ arcpy.CalculateField_management(
     Field_Atribute_Calculated, "area", "!shape.area!/10000", "PYTHON_9.3", "")
 
 arcpy.CalculateField_management(
-    Field_Area_Calculated, "percent", "([area]*100)/371.798", "VB", "")
+    Field_Area_Calculated, "percent", "([area]*100)/182.4417", "VB", "")
 
 
 # 29_Cobre
 
 Input = "29_Cobre_poly"
-Output = "D:\\Cloud\\PROGEO\\Clientes\\Kassio Vieira de Carvalho\\2022\\Fazenda Matrincha\\Processado\\Shapefiles\\legends\\dissolvedLegends\\29_Cobre.shp"
+Output = "D:\\Cloud\\PROGEO\\Clientes\\Uilson\\2023\\Fazenda Prata do Luar 2\\Processado\\Shapefiles\\legends\\dissolvedLegends\\29_Cobre.shp"
 Atribute_Field_Added = Output
 Field_Area_Added = Atribute_Field_Added
 Field_Percent_Added = Field_Area_Added
@@ -881,13 +881,13 @@ arcpy.CalculateField_management(
     Field_Atribute_Calculated, "area", "!shape.area!/10000", "PYTHON_9.3", "")
 
 arcpy.CalculateField_management(
-    Field_Area_Calculated, "percent", "([area]*100)/371.798", "VB", "")
+    Field_Area_Calculated, "percent", "([area]*100)/182.4417", "VB", "")
 
 
 # 30_Ferro
 
 Input = "30_Ferro_poly"
-Output = "D:\\Cloud\\PROGEO\\Clientes\\Kassio Vieira de Carvalho\\2022\\Fazenda Matrincha\\Processado\\Shapefiles\\legends\\dissolvedLegends\\30_Ferro.shp"
+Output = "D:\\Cloud\\PROGEO\\Clientes\\Uilson\\2023\\Fazenda Prata do Luar 2\\Processado\\Shapefiles\\legends\\dissolvedLegends\\30_Ferro.shp"
 Atribute_Field_Added = Output
 Field_Area_Added = Atribute_Field_Added
 Field_Percent_Added = Field_Area_Added
@@ -914,13 +914,13 @@ arcpy.CalculateField_management(
     Field_Atribute_Calculated, "area", "!shape.area!/10000", "PYTHON_9.3", "")
 
 arcpy.CalculateField_management(
-    Field_Area_Calculated, "percent", "([area]*100)/371.798", "VB", "")
+    Field_Area_Calculated, "percent", "([area]*100)/182.4417", "VB", "")
 
 
 # 31_Manganes
 
 Input = "31_Manganes_poly"
-Output = "D:\\Cloud\\PROGEO\\Clientes\\Kassio Vieira de Carvalho\\2022\\Fazenda Matrincha\\Processado\\Shapefiles\\legends\\dissolvedLegends\\31_Manganes.shp"
+Output = "D:\\Cloud\\PROGEO\\Clientes\\Uilson\\2023\\Fazenda Prata do Luar 2\\Processado\\Shapefiles\\legends\\dissolvedLegends\\31_Manganes.shp"
 Atribute_Field_Added = Output
 Field_Area_Added = Atribute_Field_Added
 Field_Percent_Added = Field_Area_Added
@@ -947,13 +947,13 @@ arcpy.CalculateField_management(
     Field_Atribute_Calculated, "area", "!shape.area!/10000", "PYTHON_9.3", "")
 
 arcpy.CalculateField_management(
-    Field_Area_Calculated, "percent", "([area]*100)/371.798", "VB", "")
+    Field_Area_Calculated, "percent", "([area]*100)/182.4417", "VB", "")
 
 
 # 32_Zinco
 
 Input = "32_Zinco_poly"
-Output = "D:\\Cloud\\PROGEO\\Clientes\\Kassio Vieira de Carvalho\\2022\\Fazenda Matrincha\\Processado\\Shapefiles\\legends\\dissolvedLegends\\32_Zinco.shp"
+Output = "D:\\Cloud\\PROGEO\\Clientes\\Uilson\\2023\\Fazenda Prata do Luar 2\\Processado\\Shapefiles\\legends\\dissolvedLegends\\32_Zinco.shp"
 Atribute_Field_Added = Output
 Field_Area_Added = Atribute_Field_Added
 Field_Percent_Added = Field_Area_Added
@@ -980,13 +980,13 @@ arcpy.CalculateField_management(
     Field_Atribute_Calculated, "area", "!shape.area!/10000", "PYTHON_9.3", "")
 
 arcpy.CalculateField_management(
-    Field_Area_Calculated, "percent", "([area]*100)/371.798", "VB", "")
+    Field_Area_Calculated, "percent", "([area]*100)/182.4417", "VB", "")
 
 
 # 33_Sodio
 
 Input = "33_Sodio_poly"
-Output = "D:\\Cloud\\PROGEO\\Clientes\\Kassio Vieira de Carvalho\\2022\\Fazenda Matrincha\\Processado\\Shapefiles\\legends\\dissolvedLegends\\33_Sodio.shp"
+Output = "D:\\Cloud\\PROGEO\\Clientes\\Uilson\\2023\\Fazenda Prata do Luar 2\\Processado\\Shapefiles\\legends\\dissolvedLegends\\33_Sodio.shp"
 Atribute_Field_Added = Output
 Field_Area_Added = Atribute_Field_Added
 Field_Percent_Added = Field_Area_Added
@@ -1013,4 +1013,4 @@ arcpy.CalculateField_management(
     Field_Atribute_Calculated, "area", "!shape.area!/10000", "PYTHON_9.3", "")
 
 arcpy.CalculateField_management(
-    Field_Area_Calculated, "percent", "([area]*100)/371.798", "VB", "")
+    Field_Area_Calculated, "percent", "([area]*100)/182.4417", "VB", "")
