@@ -2,35 +2,35 @@ import pyautogui
 from time import sleep
 
 # coordenadas
-atributeSelectCoordinateX = -84
-atributeSelectCoordinateY = 224
+atributeSelectCoordinateX = 1298
+atributeSelectCoordinateY = 222
 
-selectContourMapCoordinateX = -33
-selectContourMapCoordinateY = 270
+selectContourMapCoordinateX = 1335
+selectContourMapCoordinateY = 273
 
-selectGridMapCoordinateX = -58
-selectGridMapCoordinateY = 274
+selectGridMapCoordinateX = 1301
+selectGridMapCoordinateY = 273
 
-centerMapExportCoordinateX = -591
-centerMapExportCoordinateY = 449
+centerMapExportCoordinateX = 787
+centerMapExportCoordinateY = 478
 
-exportCoordinateX = -554
-exportCoordinateY = 419
+exportCoordinateX = 832
+exportCoordinateY = 423
 
-pathCoordinateX = -714
-pathCoordinateY = 72
+pathCoordinateX = 649
+pathCoordinateY = 77
 
-fileNameCoordinateX = -1219
-fileNameCoordinateY = 459
+fileNameCoordinateX = 196
+fileNameCoordinateY = 462
 
-client = input('Qual e o cliente? ')
-year = input('Qual o ano? ')
-farm = input('Qual a Fazenda')
+client = 'Anderson Peixoto Cordeiro'
+year = '2023'
+farm = 'Fazenda Santa Luzia'
 
-contourPath = f'D:/Cloud/PROGEO/Clientes/{client}/{year}/{farm}/Processado/Shapefiles/smsExport/contour'
-gridPath = f'D:/Cloud/PROGEO/Clientes/{client}/{year}/{farm}/Processado/Shapefiles/smsExport/grid'
+contourPath = f'G:/Meu Drive/PROGEO/Clientes/{client}/{year}/{farm}/Processado/Shapefiles/smsExport/contour'
+gridPath = f'G:/Meu Drive/PROGEO/Clientes/{client}/{year}/{farm}/Processado/Shapefiles/smsExport/grid'
 
-atributeExecutionTime = 45
+atributeExecutionTime = 120
 
 # 10_Saturacao_de_Bases
 # Select Atribute
