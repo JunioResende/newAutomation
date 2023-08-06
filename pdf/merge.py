@@ -1,9 +1,9 @@
 import os
 from PyPDF2 import PdfWriter
 
-clientSelect = input('Qual o Cliente? ')
-yearSelect = input('Em que ano? ')
-farmSelect = input('Qual a Fazenda? ')
+clientSelect = 'Marcos Nogueira'
+yearSelect = '2023'
+farmSelect = 'Fazenda Limoeiro'
 outputName = f'Livreto_{farmSelect}.pdf'
 
 merger = PdfWriter()
